@@ -1,0 +1,100 @@
+{
+    "code": 0,
+    "message": "success",
+    "data": {
+        "activity": "春风十里送福利",
+        "first": "百万保障首月低至<span>1.15</span>元",
+        "time": "活动时间:4月10号-4月16号",
+        "insurance": {
+            "transverse": [
+                {
+                    "type": "hongfu",
+                    "url": "/april/one/hongfu",
+                    "img": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hf01.png",
+                    "slogan": "人人必备的保障",
+                    "title": "600万医疗险",
+                    "desc": "癌症、重疾、普通病症全赔付",
+                    "price": "首月低至<span>1.15</span>元",
+                    "btn": "立即领取",
+                    "user": {
+                        "avatar": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hd01.png",
+                        "nickname": "温雨彤",
+                        "say": "说：看病基本不花钱，还可以每月交，对自己的物质生活没有什么影响，但是心里却多了一份踏实。"
+                    },
+                    "cc": "hongfu_getnow"
+                },
+                {
+                    "type": "impenetrable",
+                    "url": "/april/one/impenetrable",
+                    "img": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hf02.png",
+                    "slogan": "给家人最好的礼物",
+                    "title": "终身重大疾病险",
+                    "desc": "多次赔付，终身保障",
+                    "price": "<span>237</span>元起/年",
+                    "btn": "立即领取",
+                    "user": {
+                        "avatar": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hd02.png",
+                        "nickname": "乐毅",
+                        "say": "说：平安诸事顺，患病千金散。作为家里的顶梁柱，有了保终身的“金钟罩”，才不怕生病拖累家人。"
+                    },
+                    "cc": "admiralty_getnow"
+                },
+                {
+                    "type": "accident",
+                    "url": "/april/one/accident",
+                    "img": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hf03.png",
+                    "slogan": "家庭支柱必备",
+                    "title": "100万意外险",
+                    "desc": "火灾、地震、交通、意外全赔付",
+                    "price": "低至<span>25</span>元/年",
+                    "btn": "立即领取",
+                    "user": {
+                        "avatar": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hd03.png",
+                        "nickname": "彭文之",
+                        "say": "说：“不知道明天和意外哪个先来”，几十块就能保一整年，有备无患才安心。"
+                    },
+                    "cc": "accident_getnow"
+                },
+                {
+                    "type": "filial",
+                    "url": "/april/one/filial",
+                    "img": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hf04.png",
+                    "slogan": "送高端体检套餐",
+                    "title": "50万老年防癌险",
+                    "desc": "三高人群也可投保，可续保至85岁",
+                    "price": "<span>449</span>元起/年",
+                    "btn": "立即领取",
+                    "user": {
+                        "avatar": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hd04.png",
+                        "nickname": "王梓璇",
+                        "say": "说：常年在外打拼，最担心的就是父母的健康，有了保障，才能肆无忌惮的奋力奔跑。"
+                    },
+                    "cc": "filial_getnow"
+                }
+            ],
+            "vertical": [
+                {
+                    "type": "disease",
+                    "url": "/disease",
+                    "img": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hf05.png",
+                    "title": "重大疾病险",
+                    "desc": "覆盖70种重疾，确诊直赔",
+                    "price": "低至<span>20</span>元/月",
+                    "btn": "立即领取",
+                    "cc": "strichen_getnow"
+                },
+                {
+                    "type": "leukaemia",
+                    "url": "/april/one/leukaemia",
+                    "img": "//cdn-test.qsebao.com/static/images/ground-page/april/april-one-hf06.png",
+                    "title": "白血病险",
+                    "desc": "50万超高保额，确诊直赔",
+                    "price": "低至<span>15</span>元/年",
+                    "btn": "立即领取",
+                    "cc": "leukaemia_getnow"
+                }
+            ]
+        }
+    },
+    "next": ""
+}

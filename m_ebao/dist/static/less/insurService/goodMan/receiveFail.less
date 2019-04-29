@@ -1,0 +1,52 @@
+.receiveFail-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    padding: .15rem;
+    background-color: #fff;
+    .top {
+        text-align: center;
+    }
+    .top-title {
+        color: #4B8FFB;
+        font-size: .2rem;
+        position: relative;
+        padding-top: .85rem;
+    }
+    .top-title::before {
+        content: "";
+        display: block;
+        width: .62rem;
+        height: .53rem;
+        background-image: url('//cdn-test.qsebao.com/static/images/receive-result-icon-f.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 50%;
+        margin-left: -.31rem;
+        top: .22rem;
+    }
+    .top-des {
+        color: #aaa;
+        font-size: .14rem;
+    }
+    .top-button {
+        width: 100%;
+        display: block;
+        height: .44rem;
+        line-height: .44rem;
+        color: #4B8FFB;
+        border: 1px solid #4B8FFB;
+        border-radius: .05rem;
+        margin-top: .45rem;
+    }
+    .bottom {
+        text-align: center;
+        color: #aaa;
+        font-size: .14rem;
+        padding-bottom: .32rem;
+    }
+}

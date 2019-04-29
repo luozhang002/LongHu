@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <style>
+        *{
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .word-full-screen {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #fff;
+            z-index: 999999999999;
+        }
+
+        .page-content {
+            padding: 25px 23px 50px;
+            width: 100%;
+            height: inherit;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+            font-size: 14px;
+            color: #999;
+        }
+
+        .word-page {
+            line-height: 2;
+            text-align: left;
+            font-size: 12px;
+            color: #666;
+            background: white;
+        }
+
+        ol {
+            padding-left: 15px;
+            list-style: none;
+        }
+
+        li {
+            padding-bottom: 10px;
+
+        p {
+            padding-bottom: 10px;
+        }
+
+        }
+        li span {
+            display: inline-block;
+            padding-left: 15px;
+        }
+        h3 {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="word-page word-full-screen">
+    <div class="page-content">
+        <!--<h2 class="text-center">理赔案例</h2>-->
+        <ol>
+            <li>
+                <h3>案例</h3>
+                <p>&nbsp;&nbsp;某市某区居民杨先生，2016年1月份为其住宅购买了一份华泰百万家财，投保了房屋主体结构方面及室内装潢的家财险，总保额120万，保险期限一年。同年6月份，因室内发生燃气泄露发生爆炸造成火灾，导致房屋框架结构及室内装潢受损严重。经燃气公司和保险公司现场查勘确认保险责任，保险公司根据被保险人提供的消防、燃气公司等部门的证明材料，进行了损失认定和赔偿金额认定，最终赔偿杨先生房屋主体结构损失15万，室内装潢损失8万，重新购置室内固定装置的水暖、气暖、卫生、供水、管道煤气及供电设备、厨房配套的设备等费用2万，合计赔偿了25万。</p>
+            </li>
+        </ol>
+    </div>
+</div>
+</body>
+</html>

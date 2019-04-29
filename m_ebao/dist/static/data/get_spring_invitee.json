@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "message": "success",
+    "data": {
+        "left": "200,000",
+        "invitees": [
+            {
+                "invitee_id": "4",
+                "name": "182****3023",
+                "avatar": "",
+                "coupon": "获得30元红包",
+                "date": "2分钟前"
+            },
+            {
+                "invitee_id": "3",
+                "name": "151****8923",
+                "avatar": "",
+                "coupon": "获得30元红包",
+                "date": "2分钟前"
+            },
+            {
+                "invitee_id": "52",
+                "name": "131****4768",
+                "avatar": "",
+                "coupon": "获得30元红包",
+                "date": "4小时前"
+            },
+            {
+                "invitee_id": "9682",
+                "name": "138****6241",
+                "avatar": "",
+                "coupon": "获得30元红包",
+                "date": "9小时前"
+            },
+            {
+                "invitee_id": "5",
+                "name": "139****6505",
+                "avatar": "",
+                "coupon": "获得30元红包",
+                "date": "14小时前"
+            }
+        ]
+    },
+    "next": ""
+}

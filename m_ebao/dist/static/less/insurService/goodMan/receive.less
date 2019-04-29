@@ -1,0 +1,192 @@
+.cardFamily-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-image: linear-gradient(-180deg, #5072EA 0%, rgba(79,161,255,0.85) 96%);
+    .top-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: .55rem;
+      -webkit-overflow-scrolling: touch;
+      overflow: scroll;
+    }
+    .write-info {
+        width: 100%;
+        margin-top: -.35rem;
+        padding: .15rem;
+        .weui-cells__title {
+          font-size: .12rem;
+          color: #fff;
+          padding: 0;
+        }
+        .weui-cells {
+            font-size: .14rem;
+            border-radius: .05rem;
+        }
+        .weui-cell__hd {
+            width: 1rem;
+        }
+        .dialog-fill-card {
+          width: .18rem;
+          height: .15rem;
+          margin-left: .05rem;
+          vertical-align: middle;
+        }
+        .checker-dis {
+          padding: .1rem .15rem;
+          .checker-des {
+            -webkit-justify-content: space-around;
+            font-size: .14rem;
+            justify-content: space-around;
+            .checker-items {
+              padding: 0 .1rem;
+              border: 1px solid #ccc;
+              border-radius: .05rem;
+              color: #666;
+              height: .26rem;
+              line-height: .26rem;
+            }
+            .checker-items-active {
+              background-color: #3681DE;
+              border-color: #3681DE;
+              color: #fff;
+            }
+          }
+        }
+        .check-social {
+            .weui-cell__hd {
+                width: 0;
+            }
+        }
+        .social-item {
+          line-height: 1.6;
+          font-size: .14rem;
+          color: #aaa;
+          width: .48rem;
+          text-align: center;
+          border: 1px solid #aaa;
+          margin-right: .1rem;
+          border-radius: .05rem;
+        }
+        .social-item-selected {
+          border-color: #3681DE;
+          background-color: #3681DE;
+          color: #fff;
+        }
+    }
+    .agreement {
+        position: relative;
+        color: #4A4A4A;
+        font-size: .12rem;
+        margin-bottom: .04rem;
+        align-items: flex-start;
+        padding: 0 .15rem;
+        color: #fff;
+        a {
+          color: #fff;
+        }
+    }
+    .agreement-icon {
+      display: block;
+      width: .13rem;
+      height: .13rem;
+      margin-top: .03rem;
+      margin-right: .02rem;
+      background-size: 100%;
+      background-image: url('//cdn-test.qsebao.com/static/images/unagreement-icon.png');
+    }
+    .agreeProtocol {
+      background-image: url('//cdn-test.qsebao.com/static/images/agree-icon.png');
+    }
+    .submit-button {
+        height: .55rem;
+        color: #4B8FFB;
+        font-size: .16rem;
+        -webkit-align-items: center;
+        position: absolute;
+        bottom: 0;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        .give-up {
+          -webkit-flex: 1;
+          color: #4B8FFB;
+          border-radius: .05rem;
+          flex: 1;
+          border: 1px solid #4B8FFB;
+          height: .4rem;
+          line-height: .4rem;
+          margin: 0 .05rem 0 .15rem;
+        }
+        .submit {
+          -webkit-flex: 1;
+          background-color: #4B8FFB;
+          color: #fff;
+          border-radius: .05rem;
+          height: .4rem;
+          line-height: .4rem;
+          margin: 0 .15rem 0 .05rem;
+          flex: 1;
+        }
+    }
+    // 底部popup 获取卡片信息
+    #real-name {
+        .weui-mask {
+            z-index:10000;
+        }
+        .weui-actionsheet {
+            z-index:20000;
+        }
+    }
+    #real-name {
+      .rn-title {
+          height:.4rem;
+          line-height:.4rem;
+          h3 {
+              font-size:.12rem;
+              font-weight:400;
+              color:#bbb;
+          }
+      }
+      .rn-body {
+          padding:0 .15rem;
+          max-height: 2.5rem;
+          overflow: scroll;
+          -webkit-overflow-scrolling:touch;
+          ul {
+              li {
+                  height:.4rem;
+                  line-height:.4rem;
+                  list-style: none;
+                  cursor: pointer;
+                  span {
+                      font-size:.12rem;
+                      color:#999;
+                      strong {
+                          margin-right:.05rem;
+                          font-size:.14rem;
+                          font-weight:400;
+                          color:#333;
+                      }
+                  }
+              }
+          }
+          .active {
+              span {
+                  padding:.1rem .23rem;
+                  background:url('//cdn-test.qsebao.com/static/images/global/icon-12.png') no-repeat right center;
+                  background-size:.13rem .09rem;
+              }
+          }
+      }
+      .weui-actionsheet__cell:active {
+          background:white;
+      }
+    }
+}

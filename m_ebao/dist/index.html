@@ -1,0 +1,87 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=black><meta name=format-detection content="telephone=no"><link rel="shortcut icon" href=//cdn-test.qsebao.com/static/images/favicon.ico><title>轻松保</title><style type=text/css>/*!*兼容iPhoneX*!*/
+        @media only screen and (device-width: 375px) and (device-height: 812px) and
+        (-webkit-device-pixel-ratio: 3) {
+            .has-bottombar {
+                height: 100%;
+                box-sizing: border-box;
+                padding-bottom: 34px;
+            }
+            .has-bottombar:after {
+                content: '';
+                z-index: 9998;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 34px;
+                background: #ffffff;
+            }
+            /*.bottom-menu-fixed {*/
+                /*bottom: 34px;*/
+            /*}*/
+        }
+
+      .vux-loading .weui-mask_transparent {
+          position: fixed;
+          z-index: 1000;
+          top: 0;
+          right: 0;
+          left: 0;
+          bottom: 0;
+      }
+      .vux-loading .weui-toast {
+          position: fixed;
+          z-index: 5000;
+          width: 120px!important;
+          height: 120px!important;
+          top: 180px;
+          left: 50%;
+          margin-left: -60px;
+          background: rgba(17, 17, 17, 0.7);
+          text-align: center;
+          border-radius: 5px;
+          color: #FFFFFF;
+      }
+      .vux-loading .weui-toast__content {
+        margin: 10px 0 15px!important;
+        font-size: 16px;
+      }
+      .vux-loading .weui-toast .weui-toast_content {
+        margin: 10px 0 15px;
+        font-size: 16px;
+      }
+      .vux-loading .weui-loading {
+          margin: 30px 0 0;
+          width: 38px;
+          height: 38px;
+          vertical-align: baseline;
+          display: inline-block;
+          vertical-align: middle;
+          -webkit-animation: weuiLoading 1s steps(12, end) infinite;
+          animation: weuiLoading 1s steps(12, end) infinite;
+          background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgxMDB2MTAwSDB6Ii8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTlFOUU5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTMwKSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iIzk4OTY5NyIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxMDUuOTggNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjOUI5OTlBIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDYwIDc1Ljk4IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0EzQTFBMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA2NSA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNBQkE5QUEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDU4LjY2IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0IyQjJCMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgNTQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjQkFCOEI5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDE4MCA1MCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDMkMwQzEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTE1MCA0NS45OCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDQkNCQ0IiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTEyMCA0MS4zNCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNEMkQyRDIiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDM1IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0RBREFEQSIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgtNjAgMjQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTJFMkUyIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAtNS45OCA2NSkiLz48L3N2Zz4=) no-repeat;
+          background-size: 100%;
+      }
+      .vux-loading  .weui-icon_toast.weui-loading {
+        vertical-align: middle!important;
+      }
+      @keyframes weuiLoading{
+        0% {
+            -webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 0deg);
+        }
+        100% {
+            -webkit-transform: rotate3d(0, 0, 1, 360deg);
+            transform: rotate3d(0, 0, 1, 360deg);
+        }
+      }</style><script type=text/javascript src=//static-huzhu.qschou.com/js/log1.0.0.min.js></script><script type=text/javascript src=//cdn-test.qsebao.com/static/js/dta_20190108.js></script><script>var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d0ab2b79ba5fb036f2f85ecff4261298";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();</script><script type=text/javascript src=//cdn-test.qsebao.com/static/js/fp-gio.js></script><link href=//cdn-test.qsebao.com/static/css/app.e1f149ef409d895cc72c0b1bbf9a2001.css rel=stylesheet></head><body><div id=app></div><div class="weui_loading_toast vux-loading" id=global_loading><div class=weui-mask_transparent></div><div class=weui-toast><i class="weui-loading weui-icon_toast"></i><p class=weui-toast_content>加载中</p></div></div><script type=text/javascript src=//cdn-test.qsebao.com/static/js/manifest.0d3a9d3c3d40bc52e968.js></script><script type=text/javascript src=//cdn-test.qsebao.com/static/js/vendor.c1923d199c8f0d3f8598.js></script><script type=text/javascript src=//cdn-test.qsebao.com/static/js/app.1c1e498d7d35f503898a.js></script></body><script type=text/javascript src=//res.wx.qq.com/open/js/jweixin-1.2.0.js></script><script>// var _maq = _maq || [];
+      // _maq = [['_setAccount','testuser'],['_setCustomVar','page','home']];
+
+      // var IsIPhoneX = /iphone/gi.test(navigator.userAgent) && (screen.height == 812 && screen.width == 375)
+      var IsIPhoneX = false;</script></html>

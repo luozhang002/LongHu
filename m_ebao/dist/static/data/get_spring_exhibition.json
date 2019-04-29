@@ -1,0 +1,78 @@
+{
+    "code": 0,
+    "message": "success",
+    "data": {
+        "uuid": "",
+        "award": "0",
+        "reduced_date": "活动时间：2月1日-2月7日",
+        "vehicle_damage_left": "4996295",
+        "production": [
+            {
+                "type": "hongfu",
+                "tag": "限时5折",
+                "insure_name": "600万医疗保障",
+                "insure_desc": [
+                    "覆盖各种疾病和意外"
+                ],
+                "insure_image": "\/\/cdn-test.qsebao.com\/static\/images\/ground-page\/promotion\/npn-insur-01.png",
+                "insure_reduced": "低至5.75元\/月",
+                "insure_button": {
+                    "type": "reduced",
+                    "url": "\/hongfu-activity",
+                    "text": "立刻领取",
+                    "alert": ""
+                }
+            },
+            {
+                "type": "vehicle-damage",
+                "tag": "免费领取",
+                "insure_name": "60万交通意外险",
+                "insure_desc": [
+                    "保障7天-春节出行无忧"
+                ],
+                "insure_image": "\/\/cdn-test.qsebao.com\/static\/images\/ground-page\/promotion\/npn-insur-02.png",
+                "insure_reduced": "数量有限,先到先得",
+                "insure_button": {
+                    "type": "reduced",
+                    "url": "",
+                    "text": "免费领取",
+                    "alert": ""
+                }
+            },
+            {
+                "type": "filial",
+                "tag": "最高减1327元",
+                "insure_name": "50万老年防癌险",
+                "insure_desc": [
+                    "45-80岁可投保",
+                    "过年送父母"
+                ],
+                "insure_image": "\/\/cdn-test.qsebao.com\/static\/images\/ground-page\/promotion\/npn-insur-03.png",
+                "insure_reduced": "低至404元\/年",
+                "insure_button": {
+                    "type": "reduced",
+                    "url": "\/filial-activity",
+                    "text": "立刻领取",
+                    "alert": ""
+                }
+            },
+            {
+                "type": "accident",
+                "tag": "限时9折",
+                "insure_name": "100万意外险",
+                "insure_desc": [
+                    "全年无忧"
+                ],
+                "insure_image": "\/\/cdn-test.qsebao.com\/static\/images\/ground-page\/promotion\/npn-insur-04.png",
+                "insure_reduced": "低至22.5元\/年",
+                "insure_button": {
+                    "type": "reduced",
+                    "url": "\/accident-activity",
+                    "text": "立刻领取",
+                    "alert": ""
+                }
+            }
+        ]
+    },
+    "next": ""
+}

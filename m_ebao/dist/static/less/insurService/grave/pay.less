@@ -1,0 +1,539 @@
+
+#hf-pay {
+    padding-bottom: .65rem;
+    .info-group {
+        position: relative;
+        background: #fff;
+        border-radius: .07rem;
+        margin: .15rem;
+        .input-error {
+            input {
+                color: #FF5858;
+            }
+        }
+        .input-error {
+            input::-webkit-input-placeholder {
+                color: #FF5858;
+            }
+        }
+        .vux-cell-box::before {
+            left: .86rem;
+        }
+        .weui-cell::before {
+            left: .86rem;
+        }
+        .cell-top::before {
+            left: .15rem;
+        }
+        .vux-x-input {
+            position: relative;
+            
+        }
+        .vux-x-input:first-child {
+            .weui-cell__hd {
+                label {
+                    top: .01rem;
+                    line-height: .52rem;
+                }
+            }
+        }
+        .weui-cell {
+            padding: 0 .15rem;
+        }
+        .input-has-icon {
+            .weui-icon {
+                margin-right: .4rem;
+            }
+        }
+        .weui-cells__title {
+            margin: 0;
+            padding: .12rem 0 .07rem .15rem;
+            font-size: .24rem;
+            color: #4B8FFB;
+        }
+        .weui-cell__hd {
+            label {
+                // position: absolute;
+                // top: 0;
+                // left: .15rem;
+                // bottom: 0;
+                width: .73rem!important;
+                // background:white;
+                // vertical-align: middle;
+                // line-height: .53rem;
+                font-size: .15rem;
+                // overflow: hidden;
+            }
+        }
+        .phone {
+            label {
+                padding-left:.04rem;
+            }
+        }
+        .weui-cell__primary {
+            padding: .15rem 0;
+            input {
+                font-size: .15rem;
+            }
+        }
+        .card {
+            position: absolute;
+            top:.04rem;
+            right:.05rem;
+            display: block;
+            width: .45rem;
+            height: .45rem;
+            background:white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAYAAABe3VzdAAAAAXNSR0IArs4c6QAAAyhJREFUWAnNmEtoE0EYx7MxCcSg5FCwpmcp6CUKnioKavXkA8SLVkQoSRM99VAPIkbBg+LRkAf4OBTUk6+cpCgoogeRXnoRFASxFRVakQZtHv1N7IRxd2Y3paHdgWG+9/zzfd/MbtYKMJrNpjUyMpKBHGIm4aNCvtrDsqwqe04yx4vFYgG+aQlw6XT6EcLDqw3IY78npVLp6LqZmZkshqMexmuh7q9UKt+C7CzK6stBiU8JgElfovsHKhlcqwPRSVIENpHBTkcTww9MccoWOnVaqV1HAOmFciwW6ymXy/3M7YlEYmMwGDyP/M9KAXj5W6lUSmTGOAQQ7qTrOoNMJrO/Xq8/Q2fp9N2QuWaQDL3r7e29YdqoUChMoLtl0i/JZ4mzJxQKbdVNdJfc/ENuSnRPc7lcw8NGXPLDJhsAvOfCfWnSZ7PZO7Va7bJJ7wqQ4FMmRymnBaYaDdffsJs2uoL9D+mjrrTIQZW3064AOeab7A52HnCuNsQQe1y0+0kevSS1q2sP4nFM66UIybKnjWK+bNLzFAPgBD10TxeZ/knSP6/RrdfphQx/8YZylqktMRkULynmHva6ZnD+S5+luWruQrcHr2cDlFcckJ62UE9McHcO6lWBAHH6iPPFpHftQZw+A+5qNBp9YA/A9fNmenp6mAxcQLfTrpc8GRwgCafhTRk8Im11q1uJX4TD4eP5fP6nzlHK2DwMiJsATUlZN1ftIWHDtzzODniBE0Ao3wI9moYsdROYjOUoMeB+k40hLuiaNOpwHcV3L75bVHtkNWTXkGlLrNpC72L+dys4SkzAPBk5Z3PsiOWvwxnA3FaNifecePtUmYkeGxvbMDc3N0uMdmUdGUR53xTAS85hejg/P1/ELiJtibeDPhWZ8cwg4AZVcCKGA2AkEvkkgy93jcfjv6rV6nc26VN849CvFN5I4ufQOUqMxVfK8nHJsuWBY2tF3uYljV1bBr2ZuW3JtyuLI4NETYAnoYuu/kKV1tl2SxYkE+JR5MshsInTIv5j+HVMCoDjfkUnsLU+ffDAfkxPHfIZ0Nanj9afHcCJ7zNZan4SkL76eLQIvGsvDCgCNSYAAAAASUVORK5CYII=') no-repeat center center;
+            background-size: .22rem auto;
+            cursor: pointer;
+            overflow:hidden;
+            .popup-select-hidden {
+                opacity: 0;
+            }
+            .popup-select::before {
+                display: none;
+            }
+        }
+        .weui-cell.cell-top {
+            label {
+                background:none!important;
+            }
+        }
+        .weui-cell {
+            .vux-cell-bd {
+                height: .53rem;
+                label {
+                    position: absolute;
+                    top: 0;
+                    left: .15rem;
+                    bottom: 0;
+                    background:#fff;
+                    width: .73rem!important;
+                    vertical-align: middle;
+                    line-height: .53rem;
+                    font-size: .15rem;
+                    overflow: hidden;
+                }
+                .vux-label-desc {
+                    padding-left: .73rem;
+                    line-height: .53rem;
+                    font-size: .15rem;
+                    color: #999999;
+                }
+            }
+            .weui-cell__ft:after {
+                transform:rotate(135deg);
+                -ms-transform:rotate(135deg); 	/* IE 9 */
+                -moz-transform:rotate(135deg); 	/* Firefox */
+                -webkit-transform:rotate(135deg); /* Safari 和 Chrome */
+                -o-transform:rotate(135deg); 	/* Opera */
+            }
+        }
+        .weui-cells {
+            border-radius: .07rem;
+        }
+        .weui-cells:after {
+            display:none;
+        }
+    }
+    .info-legal {
+        .weui-cells:before {
+            display:none;
+        }
+        input {
+            color:#999;
+        }
+    }
+    // .info-group.info-app {
+    //     .card {
+    //         top:.05rem;
+    //     }
+    // }
+    .insur-tabbar {
+        display: flex;
+        position: fixed;
+        z-index: 500;
+        bottom: 0;
+        width: 100%;
+        height: .65rem;
+        background-color: #fff;
+        align-items: center;
+        &.bottom-menu-fixed{
+            bottom: 0.34rem;
+        }
+        .online-consulting {
+            display: block;
+            width: .67rem;
+            height: 100%;
+            line-height: .15rem;
+            color:#666;
+            font-size: .12rem;
+            text-align: center;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            .insur-tabbar-icon {
+                position: relative;
+                display: inline-block;
+                width: .28rem;
+                height: .28rem;
+                margin-top: .11rem;
+                &::before {
+                    content: "";
+                    display: block;
+                    width: .28rem;
+                    height: .28rem;
+                    background-image:url('data:image/png;base64,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');
+                    -webkit-background-size: 100%;
+                    background-size: 100%;
+                }
+            }
+        }
+        .total-price {
+            flex: 1;
+            margin-left:.10rem;
+            text-align: left;
+            font-size:.18rem;
+            i {
+                font-size:.12rem;
+                font-style:normal;
+            }
+        }
+        .insure-now {
+            width: 1.41rem;
+            height: .44rem;
+            padding-right: .1rem;
+            .insure-now-btn {
+                width: 100%;
+                height: 100%;
+                font-size: .16rem;
+                background-color: #4B8FFB;
+                border-radius: 0.44rem;
+            }
+            .insure-now-btn:active {
+                background-color: #3D7DCC;
+            }
+        }
+    }
+}
+// @media screen and (max-width: 320px) {
+//     #hf-pay {
+//         .info-group {
+//             .vux-x-input:first-child {
+//                 .weui-cell__hd {
+//                     label {
+//                         top: .01rem;
+//                         line-height: .59rem!important;
+//                     }
+//                 }
+//             }
+//             .weui-cell__hd {
+//                 label {
+//                     position: absolute;
+//                     top: 0;
+//                     left: .15rem;
+//                     bottom: 0;
+//                     width: .73rem!important;
+//                     background:white;
+//                     vertical-align: middle;
+//                     line-height: .60rem!important;
+//                     font-size: .15rem;
+//                     overflow: hidden;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+/*=== start [立即投保] ===*/
+#tk-payment-grave {
+    background-color: #fff;
+    //border-radius:  0.28rem 0.28rem 0 0;
+    .actionsheetContainer{
+        border-radius:  0.28rem 0.28rem 0 0;
+
+    }
+    .weui-actionsheet__cell {
+        padding:0;
+        background-color: #fff;
+    }
+    .tk-pay-art {
+        padding:0 .15rem;
+    }
+    .tk-pay-plan {
+        position:relative;
+        height:.55rem;
+        line-height:.55rem;
+        h3 {
+            font-size:.15rem;
+            font-weight:400;
+            color:#666;
+        }
+        i {
+            position: absolute;
+            top:.14rem;
+            right: 0.15rem;
+            width:27px;
+            height:27px;
+            background:url('//cdn-test.qsebao.com/static/images/global/icon-07.png') no-repeat center center;
+            background-size:15px auto;
+            cursor: pointer;
+        }
+    }
+    .pay-ins-info {
+        margin: .15rem 0;
+        padding:0 .15rem;
+        border-radius: .04rem;
+        background: #F8F8F8;
+        ul {
+            overflow: hidden;
+            li {
+                height:.55rem;
+                line-height:.55rem;
+                list-style: none;
+                font-size: .15rem;
+                color:#333;
+                clear: both;
+                h3 {
+                    float: left;
+                    font-weight: 400;
+                    font-size: .15rem;
+                }
+                span {
+                    float: right;
+                }
+            }
+            li.pay-quota {
+                dl {
+                    float: right;
+                    padding-top: .15rem;
+                    dd {
+                        float: left;
+                        margin-left: .05rem;
+                        width: .5rem;
+                        height: .25rem;
+                        line-height: .25rem;
+                        font-size: .15rem;
+                        color: #666;
+                        border: 1px solid #999;
+                        border-radius: .05rem;
+                    }
+                    dd.active {
+                        color: white;
+                        border: none;
+                        background: #438FE0;
+                    }
+                }
+            }
+        }
+    }
+    .pay-mode {
+        overflow: hidden;
+        h2 {
+            margin:0 .1rem .1rem;
+            height:.55rem;
+            line-height:.55rem;
+            text-align: left;
+            font-weight: 400;
+            font-size: .15rem;
+            color:#333;
+        }
+        .pay-mode-left {
+            float:left;
+            margin:0 .1rem;
+            .pay-mode-item {
+                width: .65rem;
+                height: .33rem;
+                line-height: .33rem;
+                font-size:.15rem;
+                color:#666666;
+                text-align: center;
+                border-radius: .03rem;
+                border: 1px solid #999;
+                background-color: #fff;
+                margin-right: .06rem;
+            }
+            .pay-mode-selected {
+                color:#4B8FFB;
+                background: #ffffff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAArCAYAAAAUo/pwAAAAAXNSR0IArs4c6QAAA9RJREFUWAntmFtIFFEYx/+zq5t2lbBUulBBRQ9FL9FbPfQcEUEQkVRkYKh0j4KKgi7YQze6gD2UmWVp2j0qk6LsXlQmUmF33Yu77v2+a98ZHXPcmdlZc90lOi9n5syZ7/zO/3zfmW8O10EFSVg0ScjEI/0Hi3Vl/iv2TygWon0iKZdy95W25AMrvmXB7ffO5AI7ft+Kqpf25NrHSuttOPPY2h0jSeFj1a8dOFbb3g3FLhIOdqfBheKbFhFUwsEeffJgF0VgWCKPSJhir755sa3ShGBYOrlJCFhjix8bLxjhC4YjllBoGHCwZlMAa8sNcPvloQbcx361B1FQZoDNExKEka0HTDGTI8RDmZ1BWZieDwYEzOYJ81At1kDPsRWv4w7m8neg6JwBX9v8iiC9H8YVzBfswIbzBjS1+nqPG/U+bmAhCrotl0x4890bFUKqQ1zA2J65vdqEJ5/dUmOqaosL2L4bZtQ2ulQByHXqd7DDd9tx9Y1DbjzV7f0KduqhDeVPbaoHV+rYb2AVzx0oeSDOqZQGFp5NydZh98JMpGqFls46RXzbt7vrb504eCcyp4pmbd60wdizaBQ4joPZGQJzA6H8tWJ1TW7svW5GrGczsyelYceCTB7K6Q3jm1n8VfgrsGfNXmy/bEJIJqcSZt+7njF2EIoXj0ZaqgYeyjJqKFhqXjtF3foM9u6nD5svGhFgf6cxlMlZqTiyNKsb6h5tK0fv/VlCwVSfwD7q/VhHnxpv4E9OlTc3AxMyUwW7kvW4kSk4mZtDUBz/7vNmD/ZcM0v2jRmM+UIRJXrML4Qyf+ZQrJqTgYr8MWBRJlVGD9OiZEUOBus4+Okb+uGXD1urTJDTOyYwvS2EQkr02l3iRG9Ymqbb+UuWZ2Pm+EEithHpGpxamYPh1I/l+F/aAqS4kXxT1E10oxrMQjAFZXoY7JGJXvlTO++8zJGZQx9akoWpXcoNIYWYUiOHaOlvCGilya05q6d8X06rTj5VYA5atkLKqX5YxCHdc4r7b5pR/9nDR1m6ToPjudm8z7E6Z4QWGg6wukNYfboVLp8yFLPLRTsc9gQ6UEAzbCCfiFa0NPhhirjptB3oUjiCIScnFXXk7HbKYpeVtMBoF7uBnE1FxQJkY1OFURUUG4DtHOvJd9ifULBrG0kj9dykUB4ppRaK2ZIFY3a3VRnx4ouH9VNd/PRifqmeFOs0zTbffFL8uznSN5WMyi7lzpo2/pxK6WWlZywS2XdwByWMFpdC+Eka4aR97AAdnlV2nVNJvhfHRhYkLHojlvJEnTVhUGy+DGrWxHT8Bkdtl9LLHgsEAAAAAElFTkSuQmCC') no-repeat right bottom;
+                background-size: .19rem auto;
+                border-color: #4B8FFB;
+            }
+            
+        }
+        .pay-mode-right {
+            float:right;
+            .vux-check-icon {
+                float:left;
+                .weui-icon {
+                    height:.15rem;
+                    font-size:.15rem;
+                    // vertical-align: top;
+                }
+                .weui-icon:before {
+                    font-size:.15rem!important;
+                }
+                .weui-icon-success-circle:before {
+                    color: #4B8FFB;
+                }
+            }
+            .vux-check-icon > span {
+                font-size:.15rem;
+                color:#999;
+                font-weight:400;
+            }
+            .vux-check-icon > .weui-icon-success:before, .vux-check-icon > .weui-icon-success-circle:before {
+                color: #4B8FFB;
+            }
+            .weui-icon-success {
+                color: #4B8FFB;
+            }
+        }
+    }
+    .pay-money {
+        flex: 1;
+        margin:.1rem .1rem 0;
+        padding: .25rem 0 .15rem;
+        text-align: left;
+        font-size:.18rem;
+        i {
+            font-size:.12rem;
+            font-style:normal;
+        }
+        .pay-type {
+            font-size: .16rem;
+            float: right;
+            position: relative;
+        }
+        .pay-type::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: .24rem;
+            height: .22rem;
+            background-image: url('//cdn-test.qsebao.com/static/images/wechat-icon.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            left: -.32rem;
+        }
+    }
+    .tk-pay-clause {
+        padding: .2rem 0 .1rem;
+        margin:0 .1rem;
+        text-align: left;
+        font-size:.12rem;
+        color:#999;
+        .vux-check-icon {
+            float:left;
+            .weui-icon {
+                height:.15rem;
+                font-size:.15rem;
+                // vertical-align: top;
+            }
+            .weui-icon:before {
+                font-size:.15rem!important;
+            }
+            .weui-icon-success-circle:before {
+                color: #4B8FFB;
+            }
+        }
+        .vux-check-icon > span {
+            font-size:.15rem;
+            color:#999;
+            font-weight:400;
+        }
+        .vux-check-icon > .weui-icon-success:before, .vux-check-icon > .weui-icon-success-circle:before {
+            color: #4B8FFB;
+        }
+        .weui-icon-success {
+            color: #4B8FFB;
+        }
+        a {
+            color: #4B8FFB;
+        }
+    }
+    .tk-pay-submit {
+        padding:.1rem 0;
+        &.bottom-menu-fixed{
+            position: relative;
+            margin-top: 0.34rem;
+            bottom: 0.34rem;
+        }
+        button {
+            height:.44rem;
+            font-size:.16rem;
+            background-color: #4B8FFB;
+            border-radius: 0.44rem;
+        }
+        button:active {
+            background-color: #3D7DCC;
+        }
+    }
+
+}
+.popup-select {
+    height: .55rem;
+    line-height: .55rem;
+    .vux-popup-picker-select {
+        font-size: .15rem;
+        text-align: left!important;
+    }
+}
+.popup-select.cell-top {
+    .weui-cell__hd {
+        label {
+            margin-top:1px;
+        }
+    }
+}
+.vux-popup-dialog {
+    .vux-popup-picker-header {
+        background:white!important;
+        height: .55rem!important;
+        .vux-popup-picker-cancel {
+            color: white;
+        }
+        .vux-popup-picker-header-menu {
+            line-height: .55rem;
+        }
+        .vux-popup-picker-cancel::after {
+            content: "";
+            position: absolute;
+            left: .15rem;
+            top: .2rem;
+            width:.15rem;
+            height:.15rem;
+            background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAblJREFUSA211j1OwzAUB/DaTIEb5BpwATp2yMBaIbokCHEGhMQJGMqQLwmpRwgbG0dgQbB04RJIUcL/WXXUpoljO86TnDhf/vklsRNW1zXPsuxuNpv9hGH4jvVkkef5RVmWcwDrE9/374GvUZZBEGyLovicQo7j+LKqKkpsgXLGEd+oVCgc+GuSJNeoOw1C0eAbyik1DPOL0+1ljK2wPQneRmE9wkwY9YCCMqWMUeUoFXUmiqIN6tbRhaLNJ2qwgWnDJa5Cj2BX+BDaCY/FddBe2BbXRZWwKW6CDsK6uCmqBQ/hNqg23Idj3P/iWDMj0eQgxyldo4qDcaw6kY61xzl2/aF4dMwEFefTwiRauLjUFKWLaHo0it3tpUxFAK1R2e42tVdG8N6LJG8v+lEzFOOvmja8h4pPG91epHeDYvVV03q5ulD59raeufZXbRBWofKB2uBKWAe1xXthE9QG74RtUFP8CB6DmuAHsAtUF29gl6gOLuAp0CGcpWl6jj/8D5zYzEhycpAXj123xzl+6K9oypxPiVKnkcgGU+wKVTG9ItEFx+IFO57Ri1vXmaLdJginTLEj8Tzv4R+ER4dsiLeJawAAAABJRU5ErkJggg==') no-repeat center center;
+            background-size: .15rem .15rem; 
+        }
+        .vux-popup-picker-header-menu-right {
+            font-size: .15rem;
+            color: #4B8FFB;
+        }
+        .vux-popup-picker-header-menu-right::after {
+            content: "请选择";
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -.24rem;
+            font-size:.16rem;
+            color:#5A4B41;
+            font-weight: 400;
+        }
+    }
+    .vux-picker {
+        .vux-picker-item {
+            background:white;
+        }
+        .scroller-component {
+            width: auto;
+            margin: 0 .15rem;
+            background: white;
+        }
+        // .scroller-item {
+        //     height: .55rem;
+        //     line-height: .55rem;
+        // }
+        .scroller-item-selected {
+            color: #4B8FFB;
+        }
+    }
+}

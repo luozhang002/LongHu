@@ -1,0 +1,380 @@
+.policyFamily-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    .list-container {
+        padding: 0 .15rem .1rem;
+        width: 100%;
+        overflow: scroll;
+        .list-item {
+            background-color: #fff;
+            margin-top: .1rem;
+            border-radius: .05rem;
+            box-shadow:-.02rem 0 .02rem rgba(0,0,0,.1),
+            .02rem 0 .02rem rgba(0,0,0,.1),
+            0 -.02rem .02rem rgba(0,0,0,.1),
+            0 .02rem .02rem rgba(0,0,0,.1);
+            .item-title {
+                font-size: .16rem;
+                color: #fff;
+                height: .37rem;
+                background-image: url('//cdn-test.qsebao.com/static/images/plicy-family-no-bg.png');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                padding: .1rem 0 .07rem;
+                text-align: center;
+            }
+            .parentsbg {
+                background-image: url('//cdn-test.qsebao.com/static/images/plicy-family-parents-bg.png');
+            }
+            .childrenbg {
+                background-image: url('//cdn-test.qsebao.com/static/images/plicy-family-children-bg.png');
+            }
+            .spousebg {
+                background-image: url('//cdn-test.qsebao.com/static/images/plicy-family-spouse-bg.png');
+            }
+            .icon-btn {
+                height: .97rem;
+                position: relative;
+                .item-icon {
+                    width: 54px;
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -.27rem;
+                    margin-top: .15rem;
+                }
+                .item-btn {
+                    font-size: .15rem;
+                    color: #4B8FFB;
+                    padding: .03rem 0;
+                    position: absolute;
+                    right: .1rem;
+                    bottom: .1rem;
+                    border: 1px solid #4B8FFB;
+                    width: .78rem;
+                    text-align: center;
+                    border-radius: .05rem;
+                }
+                .btn-gray {
+                    color: #aaa;
+                    border-color: #aaa;
+                }
+            }
+        }
+    }
+    /* 模态框 填写被保人信息 */
+    .dialog-fill-info {
+      background-color: #fff;
+      .fill-info-content {
+        .fill-info-title {
+          position: relative;
+          box-sizing: border-box;
+          .title-text {
+            width: 100%;
+            height: .5rem;
+            line-height: .5rem;
+            text-align: center;
+            font-size: .16rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #333;
+            padding-right: .1rem;
+          }
+          .dialog-close-btn-content {
+            position: absolute;
+            top: .07rem;
+            right: .1rem;
+            width: .36rem;
+            height: .36rem;
+          }
+        }
+        .pay-check-container {
+          .vux-checker-item {
+            font-size: .12rem;
+            padding: .05rem .1rem;
+            border: 1px solid #E5E5E5;
+            border-radius: .05rem;
+            margin-left: .1rem;
+          }
+          .vux-checker-item:first-child {
+            margin-left: 0;
+          }
+          .pay-check-item-selected {
+            border: none;
+            background-color: #4B8FFB;
+            color: #fff;
+          }
+        }
+        .dialog-fill-card {
+          width: .18rem;
+          height: .15rem;
+          margin-left: .05rem;
+          vertical-align: middle;
+        }
+        .dialog-save-btn {
+          .dialog-tips {
+            padding: .05rem 0;
+            color:#ccc;
+            font-size:.12rem;
+            text-align:left;
+          }
+          padding: 0 .15rem .15rem .15rem;
+        }
+      }
+      .social-container {
+        padding: .1rem 0 .1rem .2rem;
+      }
+      .social-item {
+        line-height: 1.6;
+        font-size: .14rem;
+        color: #aaa;
+        width: .48rem;
+        text-align: center;
+        border: 1px solid #aaa;
+        margin-right: .1rem;
+        border-radius: .05rem;
+      }
+      .social-item-selected {
+        border-color: #3681DE;
+        color: #fff;
+        background-color: #3681DE;
+      }
+
+    }
+    /* 模态框 填写被保人信息 end */
+
+
+    // 底部popup 获取卡片信息
+    #real-name {
+        .weui-mask {
+            z-index:10000;
+        }
+        .weui-actionsheet {
+            z-index:20000;
+        }
+    }
+    #real-name {
+      .rn-title {
+          height:.4rem;
+          line-height:.4rem;
+          h3 {
+              font-size:.12rem;
+              font-weight:400;
+              color:#bbb;
+          }
+      }
+      .rn-body {
+          padding:0 .15rem;
+          max-height: 2.5rem;
+          overflow: scroll;
+          -webkit-overflow-scrolling:touch;
+          ul {
+              li {
+                  height:.4rem;
+                  line-height:.4rem;
+                  list-style: none;
+                  cursor: pointer;
+                  span {
+                      font-size:.12rem;
+                      color:#999;
+                      strong {
+                          margin-right:.05rem;
+                          font-size:.14rem;
+                          font-weight:400;
+                          color:#333;
+                      }
+                  }
+              }
+          }
+          .active {
+              span {
+                  padding:.1rem .23rem;
+                  background:url('//cdn-test.qsebao.com/static/images/global/icon-12.png') no-repeat right center;
+                  background-size:.13rem .09rem;
+              }
+          }
+      }
+      .weui-actionsheet__cell:active {
+          background:white;
+      }
+    }
+    .vux-actionsheet .weui-actionsheet__cell {
+        padding:0;
+    }
+    .policy-pay-container {
+      background-color: #fff;
+      color: #666;
+      font-size: .14rem;
+      .policy-pay-item {
+        height: .44rem;
+        padding: 0 .15rem 0 .4rem;
+        position: relative;
+      }
+      .policy-icon-after::after {
+        content: "";
+        display: block;
+        width: .15rem;
+        height: .16rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: .15rem;
+        top: 50%;
+        margin-top: -.08rem;
+      }
+
+      .pay-check-container {
+        .vux-checker-item {
+          font-size: .12rem;
+          padding: .04rem .1rem;
+          border: 1px solid #E5E5E5;
+          border-radius: .05rem;
+          margin-left: .1rem;
+        }
+        .vux-checker-item:first-child {
+          margin-left: 0;
+        }
+        .pay-check-item-selected {
+          border: none;
+          background-color: #4B8FFB;
+          color: #fff;
+        }
+      }
+      .policy-pay-title {
+        height: .42rem;
+        line-height: .42rem;
+        justify-content: center;
+        position: relative;
+        .policy-pay-icon {
+          width: .21rem;
+          margin-right: .08rem;
+        }
+        .policy-pay-exit {
+          position: absolute;
+          transform: rotate(45deg);
+          right: .1rem;
+          top: .1rem;
+          width: .2rem;
+          height: .2rem;
+        }
+        .policy-pay-exit::before,.policy-pay-exit::after {
+          content: "";
+          display: block;
+          width: .02rem;
+          height: .2rem;
+          background-color: #aaa;
+          position: absolute;
+          left: .09rem;
+          top: 0;
+        }
+        .policy-pay-exit::after {
+          transform: rotate(90deg);
+        }
+      }
+      .policy-person {
+        .online-consulting {
+          color: #4B8FFB;
+          position: relative;
+        }
+        .online-consulting::before {
+          content: "";
+          display: block;
+          width: .15rem;
+          height: .15rem;
+          background-image: url('//cdn-test.qsebao.com/static/images/consulting-icon.png');
+          background-size: 100%;
+          background-repeat: no-repeat;
+          position: absolute;
+          left: -.19rem;
+          top: 50%;
+          margin-top: -.08rem;
+        }
+      }
+      .policy-person::after {
+        background-image: url('//cdn-test.qsebao.com/static/images/policy-person-icon.png');
+      }
+      .policy-num::after {
+        width: .13rem;
+        background-image: url('//cdn-test.qsebao.com/static/images/policy-num-icon.png');
+      }
+      .pay-type::after {
+        height: .13rem;
+        background-image: url('//cdn-test.qsebao.com/static/images/pay-type-icon.png');
+      }
+      .pay-type {
+        .auto-pay-c {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          color: #aaa;
+        }
+        .auto-pay-icon {
+          display: block;
+          width: .16rem;
+          height: .16rem;
+          background-size: 100%;
+          margin-right: .02rem;
+          background-image: url('//cdn-test.qsebao.com/static/images/auto-pay-check-icon.png');
+        }
+        .cancelAutoPay {
+          background-image: url('//cdn-test.qsebao.com/static/images/unagreement-icon.png');
+        }
+      }
+      .pay-num, .added-throw, .policy-agreement {
+        line-height: .44rem;
+      }
+      .pay-num {
+        .num-text {
+          color: #F25B4B;
+        }
+      }
+      .pay-num::after {
+        background-image: url('//cdn-test.qsebao.com/static/images/pay-num-icon.png');
+      }
+      .added-throw::after {
+        background-image: url('//cdn-test.qsebao.com/static/images/policy-gift-icon.png');
+      }
+      .policy-agreement {
+        position: relative;
+        .agreement-icon {
+          display: block;
+          width: .13rem;
+          height: .13rem;
+          left: .15rem;
+          top: 50%;
+          margin-top: -.08rem;
+          position: absolute;
+          background-size: 100%;
+          background-image: url('//cdn-test.qsebao.com/static/images/unagreement-icon.png');
+        }
+        .agreeProtocol {
+          background-image: url('//cdn-test.qsebao.com/static/images/auto-pay-check-icon.png');
+        }
+        .agreement-book {
+          color: #4B8FFB;
+        }
+      }
+      .pay-submit-c {
+        height: .5rem;
+        text-align: center;
+        padding: .05rem .15rem;
+        color: #fff;
+        .pay-submit {
+          background-color: #4B8FFB;
+          border-radius: .05rem;
+          height: .4rem;
+          line-height: .4rem;
+          font-size: .15rem;
+        }
+      }
+
+    }
+    .weui-dialog {
+        width: 3.3rem;
+        max-width: none;
+    }
+}

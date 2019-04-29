@@ -1,0 +1,170 @@
+.rights-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  .rights-top {
+    height: 1.75rem;
+    width: 100%;
+    background-image: url('//cdn-test.qsebao.com/static/images/rights-top-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #F9E999;
+    text-align: center;
+    font-size: .14rem;
+    position: relative;
+    .top-title {
+        font-size: .23rem;
+        padding-top: .4rem;
+        -webkit-justify-content: center;
+        position: relative;
+        justify-content: center;
+    }
+    .top-title::before, .top-title::after {
+        content: "";
+        display: block;
+        width: .17rem;
+        height: .14rem;
+        background-image: url('//cdn-test.qsebao.com/static/images/rights-name-icon.png');
+        background-size: 100%;
+        margin: 0 .12rem;
+    }
+    .right-icon-list  {
+        -webkit-justify-content: center;
+        list-style: none;
+        justify-content: center;
+        padding-top: .26rem;
+        .rights-item-img {
+            width: .37rem;
+            position: relative;
+            z-index: 99;
+        }
+        .right-icon-item {
+            margin-left: .6rem;
+            position: relative;
+        }
+        .right-icon-item::before, .rightsActive::after {
+            content: "";
+            display: block;
+            width: 200%;
+            height: .03rem;
+            background-color: #715D3B;
+            position: absolute;
+            top: .1rem;
+            left: -.65rem;
+        }
+        .right-icon-item:first-child {
+            margin-left: 0;
+        }
+        .right-icon-item:first-child::before {
+            background-color: #393630;
+            width: 1rem;
+            left: -0.75rem;
+            z-index: 9;
+        }
+        .rightsActive::after {
+            width: 3.75rem;
+            background-color: #EED470;
+            left: -3.5rem;
+        }
+    }
+    .small-triangle {
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: .03rem;
+        bottom: -.16rem;
+        border-left: .15rem solid transparent!important;
+        border-right: .15rem solid transparent!important;
+        border-bottom: .18rem solid #4B8FFB!important;
+        z-index: 999;
+    }
+    .triangle-first {
+        left: .02rem;
+    }
+    .rights-icon-msg {
+        position: absolute;
+        bottom: -.32rem;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 3.45rem;
+        color: #fff;
+        background-color: #4B8FFB;
+        height: .35rem;
+        font-size: .15rem;
+        line-height: .35rem;
+        border-radius: .05rem;
+        z-index: 999;
+        text-align: center;
+        .msg-ok {
+            font-size: .22rem;
+            padding: 0 .22rem;
+            height: .24rem;
+            line-height: .24rem;
+        }
+    }
+  }
+  .rights-detail-check {
+    -webkit-justify-content: space-around;
+    background-color: #fff;
+    justify-content: space-around;
+    padding: .15rem 0 .1rem;
+    .check-item {
+        padding: .06rem .32rem;
+        position: relative;
+    }
+    .checkItemActive::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: .15rem solid transparent!important;
+        border-right: .15rem solid transparent!important;
+        border-bottom: .18rem solid #fff!important;
+        position: absolute;
+        top: .53rem;
+        left: .25rem;
+    }
+  }
+    .rights-detail-title {
+        margin-top: .2rem;
+        background-color: #fff;
+        color: #333;
+        font-size: .16rem;
+        width: 100%;
+        text-align: center;
+        padding: .15rem 0 .06rem;
+    }
+    .rights-detail {
+        width: 100%;
+        background-color: #fff;
+        padding: .15rem;
+        -webkit-flex: 1;
+        color: #666;
+        flex: 1;
+        font-size: .14rem;
+        overflow: scroll;
+        .detail-text {
+            position: relative;
+            padding-left: .8rem;
+        }
+        .detail-text-left {
+            position: absolute;
+            left: 0;
+        }
+    }
+    .explain-bottom {
+        font-size: .12rem;
+        color: #ccc;
+        text-align: center;
+        padding: .05rem 0;
+    }
+}

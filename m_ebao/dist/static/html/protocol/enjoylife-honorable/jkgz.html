@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>健康告知</title>
+    <style type="text/css">
+        * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .zyfxflb {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        .word-page {
+            padding: 15px 22px;
+            width: 100%;
+            height: inherit;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-indent {
+            text-indent: 20px;
+        }
+
+        .word-page {
+            background-color: #fff;
+            padding: 15px;
+            line-height: 2;
+            text-align: left;
+            font-size: 12px;
+            color: #666;
+        }
+
+        ol {
+            padding-left: 15px;
+        }
+
+        li {
+            padding-bottom: 10px;
+        }
+
+        li span {
+            display: inline-block;
+        }
+
+        li a,
+        li a:hover {
+            color: #3682DF;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="zyfxflb">
+        <div class="word-page">
+            <p align="center">健康&amp;职业问卷：</p>
+            <p align="center" style="text-align: left"><span >本人已确认以下情况全无</span></p>
+            <p align="center" style="text-align: left"><br></p>
+            <p><strong>本健康问卷必须由投保人亲自<span>确认</span>，如您非投保人本人，或您是投保人本人，但不完全知晓所有被保险人的健康/职业状况,请立即停止填写本问卷。</strong></p>
+            <p><strong>&nbsp;</strong></p>
+            <p><strong>投保人应在对所有被保险人健康/职业状况充分了解的基础上履行如实告知义务。投保人承诺完全知晓所有被保险人健康/职业状况。若被保险人职业/健康状况与下述告知内容不符：</strong></p>
+            <p><strong>（1）&nbsp; </strong><strong>本公司有权不同意承保。</strong></p>
+            <p><strong>（2）&nbsp; </strong><strong>若发生保险事故，本公司不承担赔偿或给付保险金的责任，并有权不退还保险费。</strong></p>
+            <p>&nbsp;</p>
+            <p><strong>投保人需确认被保险人是否有以下情况？</strong></p>
+            <p>1. 被保险人的近亲属（父母、子女、兄弟姐妹）是否有2位或2位以上在60周岁前被诊断为同一癌症？</p>
+            <p>2. 被保险人过往或目前是否被诊断为下列任一疾病，出现以下任一体征或检查异常：</p>
+            <p>A: 恶性肿瘤（包括白血病）、癌前病变、原位癌、类癌、乙型肝炎或乙肝病毒携带者、丙型肝炎或丙肝病毒携带者、溃疡性结肠炎、胰腺炎；</p>
+            <p>B：息肉/结节（如甲状腺结节）/肿瘤/新生物/未明性质的肿块（如乳房肿块）；</p>
+            <p>C：吞咽困难、咳血、吐血、便血（非痔疮出血）或黑便、血尿、贫血、半年内非健身原因所致的体重减少5公斤以上。</p>
+            <p>D：肿瘤标志物*或组织及细胞病理学检查异常；</p>
+            <p>3. （女性适用）：过往或目前是否有不规则阴道出血、乳头异常溢液、糜烂或回缩、乳房表面皮肤凹陷、皱褶或皮肤收缩、宫颈肿物/上皮内瘤样病变、畸胎瘤、葡萄胎、绒毛膜癌或其他滋养细胞疾病？</p>
+            <p>注：肿瘤标志物*：甲胎蛋白（AFP）、癌胚抗原（CEA）、前列腺特异性抗原（PSA）、癌抗原125（CA125）、癌抗原199（CA199）、癌抗原15-3（CA15-3）、癌抗原50（CA50）、糖类抗原242（CA242）、胃癌相关抗原（CA72-4）、铁蛋白（SF）、β2微球蛋白(β2-MG)、神经元特异性烯醇化酶（NSE）、鳞状细胞癌抗原（SCCA）、核基质蛋白-22（NMP-22）、.α-L-岩藻糖苷酶（AFU），人绒毛膜促性腺激素(HCG)。</p>
+            <p>4. 目前从事高危职业 (特别职业表见下方)。</p>
+            <p>&nbsp;</p>
+            <table class="confluenceTable">
+                <colgroup>
+                    <col>
+                    <col>
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>特别职业种类表</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>分类</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>职业</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>农牧渔业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>有毒动物饲养工（蛇、蝎子、蜈蚣等）、捕鱼人(内陆、沿海)、养殖工人(沿海)、远洋渔船船员、近海渔船船员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>木材森林业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>伐木工人、锯木工人、装运工人、挂钩工人、木材搬运工人</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>矿业采掘业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>矿工、采掘工、爆破工、海上作业人员、潜水人员、采石业工人、采砂业工人、陆上油矿开采技术员、油气井清洁保</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>养修护工、钻勘设备安装换修保养工、钻油井工人、井下作业工</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>交通运输业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>陆运</strong>：混凝土预拌车驾驶员、搬运工人、装卸工人、矿石车司机及随车工人、铁路货运、铁路搬运工人</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>海运：</strong>救难船员、客货轮（远洋）所有随船人员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>空运：</strong>民航机飞行人员、直升机飞行人员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>建筑工程</strong></p>
+                        </td>
+                        <td class="confluenceTd" rowspan="2">
+                            <p><strong>建筑公司</strong>：钢骨结构工人、鹰架架设工人、铁工、焊工、建筑工程机械操作员、拆屋、迁屋工人、凿岩工、装饰装修</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>工（室外）（基础装修至毛坯）</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>铁路公路铺设</strong>：现场勘测人员（山区）、铺设工人(山地)、维护工人、电线架设及维护工人、高速公路工程人员(含美</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>化人员)、铁路舟桥工</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>造修船业</strong>：拆船工人</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>装璜</strong>：室外装璜人员、金属门窗制造工人、金属门窗装修工人安装玻璃幕墙工人、钢结构安装工、中央空调系统安装</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>及维护人员、电梯升降机安装工人（高空）、木制家具制造工人</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>测绘工程</strong>：海洋测绘工程技术人员（海上作业）、地质探测员（山区）、地质探测员（海上）、海湾港口工程人员、</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>水坝工程人员、挖井工程人员、桥梁工程人员、隧道工程人员、潜水工作人员、爆破工作人员、挖泥船工人</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>制造加工维</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>冶金业</strong>：高炉原料工、高炉炉前工、高炉运转工、炼钢原料工、炼钢工、炼钢浇铸工、炼钢准备工、铁合金电炉冶炼</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>修业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>工、火法冶炼工、烟气制酸工、酸洗工、金属材热处理工、焊管工、金属挤压工、铸轧工、铸管工、硬质合金成型工</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>机械制造维修业</strong>：车床工、车工、铸造工、锻造工、冲压工、剪切工、金属热处理工、粉末冶金处理工、电切削工、</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>锅炉设备装配工、铁心叠装工、铁路车辆制造装修工、制浆设备操作工、制浆废液回收利用工、焊接工、冲压工、剪</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>床工、玻璃加工工</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>电机业</strong>：有关高压电之工作人员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>水泥业</strong><strong>(</strong><strong>包括水泥、石膏、石灰、陶器</strong><strong>)</strong>：水泥生产制造工、采掘工、爆破工、石灰焙烧工、加气混凝土制品工、装饰</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>石材生产工、石梲制品工、金刚石制品工</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p><strong>化工业</strong>：防腐蚀工、油制气工、炼焦工、焦炉机车司机、煤制气工、煤气储运工、硫酸铵生产工、过磷酸铵生产工、</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>硫酸生产工、硝酸生产工、盐酸生产工、磷酸生产工、纯碱生产工、烧碱生产工、氟化盐生产工、缩聚磷酸盐生产工、</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>气体深冷分离工、制氧工、工业气体液化工、二氧化硫制造工、脂肪烃生产工、橡胶生产工、化纤聚合工、其他有毒</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>物品生产工、火药炸药业制造人员、子弹制造人员、火工品制造人员、烟花爆竹业人员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>出版广告业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>战地记者、广告招牌架设人员、霓虹光管安装及维修人员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>娱乐业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>武打演员、特技演员、广播电视天线工、动物园驯兽师、高空杂技、飞车、飞人演员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>文教机构</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>飞行训练教官及学员、特殊运动班学生（拳击、摔跤、跆拳道等）、武术学校学生</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>公共事业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>电台天线维护人员、光缆铺设人员、高压线路带电梱修工、变压器梱修工、变电设备梱修工、牵引电力线路安装维护</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>工、电力设施架设人员、电力高压电工程设施人员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>服务业</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>高楼外部清洁工、烟囱清洁工</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>公检法等执</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>警务特勤、防暴警察、武警、防毒防化防核抢险员、一般事故抢险员、消防队队员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>法检查机关</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>军人</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>特种兵(海军陆站队、伞兵、水兵、爆破兵、蛙人、化学兵、负有布雷爆破任务之工兵、情报单位负有特殊任务者)、</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>空军飞行官兵、空军海洋巡弋舰艇及潜艇官兵、前线军人、军校学生及入伍受训新兵</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p><strong>职业运动</strong></p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>滑雪人员、橄榄球球员、摔跤运动员、职业拳击运动员、业余拳击运动员、马术运动员</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                        <td class="confluenceTd">
+                            <p>&nbsp;</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

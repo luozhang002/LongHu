@@ -1,0 +1,269 @@
+.showCard-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  .showCard-content {
+    padding: .15rem;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: .5rem;
+  }
+  .showCard-has-activation {
+    top: .35rem;
+  }
+  .remind-renewal {
+    height: .35rem;
+    line-height: .35rem;
+    padding: 0 .15rem;
+    background-color: #FFF9ED;
+    margin-bottom: -.1rem;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    .remind-icon {
+      display: inline-block;
+      width: .17rem;
+      height: .17rem;
+      background-image: url('//cdn-test.qsebao.com/static/images/remind-icon.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-right: .08rem;
+    }
+    .renewal-text {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      height: 100%;
+      .marquee-container {
+        position: absolute;
+        left: 0;
+        font-size: 14px;
+        .marquee-item {
+          margin-right: 20px;
+        }
+      }
+    }
+    .go-renewal {
+      color: #3783DF;
+      i {
+        display: inline-block;
+        width: .09rem;
+        height: .09rem;
+        border-bottom: 1px solid #3783DF;
+        border-right: 1px solid #3783DF;
+        -webkit-transform: rotate(315deg);
+        transform: rotate(315deg);
+      }
+    }
+  }
+  .showCard-title {
+    padding: 0 .05rem .05rem;
+    width: 100%;
+    font-size: .13rem;
+    color: #666;
+    .title-des {
+      font-size: .15rem;
+    }
+  }
+  .e-card {
+    width: 100%;
+    font-size: .16rem;
+    height: 1.35rem;
+    background-image: url('//cdn-test.qsebao.com/static/images/e-card-bg.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    color: #fff;
+    padding: 0 .25rem;
+    border-radius: .05rem;
+    line-height: 1.2;
+    .card-title {
+      padding-top: .15rem;
+      padding-left: .2rem;
+      position: relative;
+    }
+    .card-title::before {
+      content: "";
+      display: block;
+      width: .17rem;
+      height: .17rem;
+      position: absolute;
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA7dJREFUWAntmE1IVFEUx2esLCUNI5QKyyiKLAR1k0RBCzctyug7QqikTdAyCIMoahfUogwCgz4gJCKELCIqihYFpUYQ6iKGCkKtzPxAI51+//Hd4b73ZsaZnImCDvw8555zz7n33XffffMMBP5mCYfDQaiAaX96nhoT6nzj4rwElyHbF8yQg7Fy4SqEfEPgbADJLSjwdUizgzEK4R5IOn3lcV6IhCb+PEMt9nVKk4Pay+HlxFCRvx1Zk9ReS/w+Xcsn6ZdymJpVqg2VdvJkE1LfFaAlrbYTp2JTq4b8O1DirTPd67Daw9hfoBiK4DaFTqBDMBXRBR6DmU6Rd+gFMMtpuxWDmj3Ui10JDyBT0kzhcuh3Bki4h7R672EL3HBPOy2tRqrshB6I3qmoEWeI7GAwqJWqJd4EOXH6peoeJKGF2lqYGXbyZBOK9CXxJ0aznZgpO5mnLFNjx6z770+Ie54DKb98tVeUG3NZLGfSK+QUPEluOzynvdmqk9Ck7w46vIB27HpI/oLobM6hPuyFZiTsA2CLzo6lJh5P06cUhu1E7F2mP3YJDDnxhOeQyTF6nTEcnY8u8/hiNfUe9N4qb61oXtK3jIzWaNaEMYry/1zwdKL5FsY8bm+taDipc8jprZN1Fejk1sF2mvNJgwVY7lzUXNmOBNG9xEegjfhh2kdA76smuA7JCcnnnfv5DV3ozZIP8m0/7WoYgO+OVu4aT585+ObZPtn4XHsoGiewBI7CB5CMwV3YBnnRjpaBX4+y8rLgIPRACPaCfIolvAvE3RPCobftFfgK8aSLwHFwbU7aVaAnZKPmidZPlIuOvRt7EEqta/CZxH0TOofTyGeMRtgA++AJ/ACJ9CK7Iu08eAqaVB08hJtwCEahBVwXYefLJu6b0Bmckk4osRNoB6EWJDp3iu24bHxFoA8CW8ZpXIMCb39vmz6uCdn3t48nImQn0NYgXbbPa9OnG99W+lWgy2Ac2vC/QacsmpA5i/SoxpKkjnkmoLNFpCoa38whS0a/U2E2V2mvmCls9kAYh64+3aLf2Ob3dYf2gM4QyQi4Pkk0Mr6zCiKvwfXrbqozo57ec61gpEabRGeMlnoZPIJNLP8QWpPRO0efK/mgL5AOiHdrCaUk2gorQbUlr2B9xGJgHWRG9JVRBtuh2zgzrPWEr9ZkoleL4xTt+sgMA4ERtPlOGsD+6PjTrfooqLvSwF355CvOpPbDezDyGEP/nsnOAGYj++bhcjDwfNBG3gNp3cSugf43fnMFfgHKZWNDw4nR/QAAAABJRU5ErkJggg==');
+      background-repeat: no-repeat;
+      -webkit-background-size: 100%;
+      background-size: 100%;
+      left: 0;
+      top: .2rem;
+    }
+    .card-name {
+      font-size: .19rem;
+      font-weight: bold;
+      margin-top: .35rem;
+    }
+    .card-num {
+      font-size: .12rem;
+      margin-top: .1rem;
+    }
+  }
+  .card-policy {
+    background-color: #fff;
+    border-radius: .05rem;
+    color: #333;
+    margin-top: .1rem;
+    .policy-title {
+      width: 100%;
+      text-align: center;
+      padding: .12rem 0 .08rem .2rem;
+      border-bottom: 1px dotted #E5E5E5;
+      color: #4B8FFB;
+      font-size: .14rem;
+      background-image: url('//cdn-test.qsebao.com/static/images/show-card-middle-bg.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .policy-list {
+      list-style: none;
+      width: 100%;
+      -webkit-flex-wrap: wrap;
+      -webkit-justify-content: space-around;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .list-item {
+        text-align: center;
+        width: 1.15rem;
+        font-size: .13rem;
+        margin-top: .16rem;
+        .product-icon {
+          width: .43rem;
+        }
+      }
+    }
+    .policy-footer {
+      text-align: center;
+      font-size: .12rem;
+      color: #aaa;
+      padding: .26rem 0 .13rem;
+    }
+  }
+  .submit-open-c {
+    height: .4rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    line-height: .4rem;
+    color: #fff;
+    font-size: .15rem;
+    left: 0;
+    bottom: .15rem;
+    padding: 0 .15rem;
+    .submit-open {
+      border-radius: .05rem;
+      background-image: linear-gradient(90deg, #66B8F1 2%, #4B8FFB 98%);
+      display: block;
+      width: 100%;
+    }
+  }
+  .check-policy-alert .weui-dialog {
+    overflow: inherit;
+    width: 3.3rem;
+    max-width: inherit;
+    border-radius: .05rem;
+  }
+  .dialog-container {
+    -webkit-animation: bounceIn .3s 0s ease both;
+    animation: bounceIn .3s 0s ease both;
+  }
+  .check-policy-c {
+    position: relative;
+    .check-policy-exit {
+      position: absolute;
+      transform: rotate(45deg);
+      right: .1rem;
+      top: -.28rem;
+      width: .24rem;
+      height: .24rem;
+    }
+    .check-policy-exit::before,.check-policy-exit::after {
+      content: "";
+      display: block;
+      width: .02rem;
+      height: .24rem;
+      background-color: #fff;
+      position: absolute;
+      left: .11rem;
+      top: 0;
+    }
+    .check-policy-exit::after {
+      transform: rotate(90deg);
+    }
+    .policy-top-dc {
+      color: #fff;
+      font-size: .19rem;
+      height: 2.77rem;
+      background-image: url('//cdn-test.qsebao.com/static/images/policy-detail-bg.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      .policy-title {
+        font-size: .25rem;
+        padding-top: .72rem;
+      }
+      .policy-des-c {
+        height: 1.5rem;
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        -webkit-justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: .16rem;
+      }
+    }
+    .policy-bottom {
+      background-color: #fff;
+      padding: .15rem 0;
+      .watch-detail {
+        width: 1.39rem;
+        margin: 0 auto;
+        -webkit-justify-content: center;
+        height: .4rem;
+        justify-content: center;
+        -webkit-align-items: center;
+        background-color: #4B8FFB;
+        align-items: center;
+        color: #fff;
+        line-height: .4rem;
+        font-size: .15rem;
+        border-radius: .05rem;
+      }
+      .kaitong-icon {
+        height: .13rem;
+        width: .13rem;
+        background-image: url('//cdn-test.qsebao.com/static/images/kaitong-icon.png');
+        background-size: 100%;
+        margin-left: .03rem;
+        margin-top: .01rem;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  @keyframes bounceIn{
+    0% {
+      opacity: 0;
+      -webkit-transform: translate(-50%, -50%) scale(.5);
+      transform: translate(-50%, -50%) scale(.5);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+
+}

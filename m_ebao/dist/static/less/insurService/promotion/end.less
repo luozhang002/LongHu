@@ -1,0 +1,1232 @@
+.pn-index-fixed {
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+}
+.pn-order {
+    height: 0;
+    overflow: hidden;
+}
+.pn-bg {
+    background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/npn-bg.png') repeat-y top left;
+    background-size: 100% auto;
+}
+.pn-index {
+    img {
+        max-width: 100%;
+    }
+    .pn-banner {
+        position: absolute;
+        height: 3.88rem;
+        overflow: hidden;
+        img {
+            float:left;
+        }
+    }
+    .pn-bm {
+        position: relative;
+        height: .1rem;
+        p {
+            position: absolute;
+            top:-.1rem;
+            left:0;
+            width: 100%;
+            text-align: center;
+            font-size: .14rem;
+            color: #FFE0A5;
+        }
+    }
+    .pn-insur3 {
+        position: relative;
+        overflow: hidden;
+        padding: 1.65rem .1rem 0;
+        .pn-tree {
+            position: absolute;
+            top:1.25rem;
+            left:0;
+            z-index: 1;
+            img {
+                width: 100%;
+            }
+        }
+        .pn-insur-item:nth-child(2n + 1) {
+            float: right;
+        }
+        .pn-insur-item:nth-child(2n) {
+            float: left;
+        }
+        .pn-insur-item {
+            position: relative;
+            width:1.735rem;
+            height: 2.51rem;
+            margin-top: .2rem;
+            background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/npn-hj-bg.png') no-repeat;
+            background-size: 100% auto;
+            background-position-x: -.01rem;
+            .pn-insur-img {
+                width: 1.38rem;
+                height: 0.945rem;
+                margin: .24rem 0 0 .19rem;
+                border: .02rem solid #F7624C;
+                background:#EEEEF0 url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-logo.png') no-repeat center center;
+                background-size: .46rem .47rem;
+                overflow: hidden;
+                img {
+                    float: left;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .pn-h3-bg {
+                position: absolute;
+                top: .14rem;
+                left: 0;
+                width: 1.15rem;
+                height: .455rem;
+                line-height: .4rem;
+                color: white;
+                text-align: center;
+                background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/npn-hj-tit.png') no-repeat top left;
+                background-size: 100% auto;
+                h3 {
+                    display: block;
+                    width: 1.05rem;
+                    font-size: .12rem;
+                }
+            }
+            .pn-h3-tit {
+                width: 1.33rem;
+                height: .46rem;
+                background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/npn-hj-tit2.png') no-repeat top left;
+                background-size: 100% auto;
+                background-position-y: 1px;
+                h3 {
+                    width: 1.23rem;
+                }
+            }
+            .pn-insur-content {
+                padding-right: .04rem;
+                width: 1.8rem;
+                text-align: center;
+                h2 {
+                    margin-top: .05rem;
+                    text-align: center;
+                    font-size: .19rem;
+                    color: #7A120A;
+                    font-weight: 450;
+                    font-weight: bold;
+                }
+                p {
+                    line-height: .15rem;
+                    text-align: center;
+                    font-size: .13rem;
+                    color: #8C3700;
+                    small {
+                        font-size: .13rem;
+                    }
+                }
+                p.pn-insur-p {
+                    display: block;
+                }
+                span {
+                    display: block;
+                    margin-top: 0.05rem;
+                    font-size:.13rem;
+                    color: #F62A19;
+                    font-weight: bold;
+                }
+                a {
+                    display: block;
+                    margin: .03rem auto 0;
+                    width: 1.25rem;
+                    height: .31rem;
+                    line-height: .31rem;
+                    border: 0;
+                    border-radius: .45rem;
+                    font-size: .16rem;
+                    color: white;
+                    outline: none;
+                    /* 旧语法，带前缀并且已经废弃，以支持老版本的浏览器 */
+                    background: -prefix-linear-gradient(left, #FF7543, #F10404); 
+                    /* 新语法，不带前缀，以支持标准兼容的浏览器（Opera 12.1， IE 10， Firefox 16， Chrome 26， Safari 6.1） */
+                    background: linear-gradient(to right, #FF7543, #F10404);
+                    -webkit-box-shadow: 0 0 .11rem rgba(255, 120, 21, 0.83);
+                    -moz-box-shadow: 0 0 .11rem rgba(255, 120, 21, 0.83);
+                    box-shadow: 0 0 .11rem rgba(249, 60, 35, 0.83);
+                }
+                a.pn-insur-accident {
+                    /* 旧语法，带前缀并且已经废弃，以支持老版本的浏览器 */
+                    background: -prefix-linear-gradient(left, #FFAB1B, #FF5C0F); 
+                    /* 新语法，不带前缀，以支持标准兼容的浏览器（Opera 12.1， IE 10， Firefox 16， Chrome 26， Safari 6.1） */
+                    background: linear-gradient(to right, #FFAB1B, #FF5C0F);
+                    -webkit-box-shadow: 0 0 .11rem rgba(253, 80, 18, 0.83);
+                    -moz-box-shadow: 0 0 .11rem rgba(253, 80, 18, 0.83);
+                    box-shadow: 0 0 .11rem rgba(253, 80, 18, 0.83);
+                }
+                a.pn-accident-receive {
+                    /* 旧语法，带前缀并且已经废弃，以支持老版本的浏览器 */
+                    background: -prefix-linear-gradient(left, #CCCCCC, #A1A1A1); 
+                    /* 新语法，不带前缀，以支持标准兼容的浏览器（Opera 12.1， IE 10， Firefox 16， Chrome 26， Safari 6.1） */
+                    background: linear-gradient(to right, #CCCCCC, #A1A1A1);
+                    -webkit-box-shadow: 0 0 .11rem rgba(155, 155, 155, 0.83);
+                    -moz-box-shadow: 0 0 .11rem rgba(155, 155, 155, 0.83);
+                    box-shadow: 0 0 .11rem rgba(155, 155, 155, 0.83);
+                }
+            }
+        }
+    }
+    .pn-insur {
+        .pn-insur-item {
+            margin: .2rem auto 0;
+            width: 3.4rem;
+            height: 2.08rem;
+            background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-insur-bg.png') no-repeat top center;
+            background-size: 100% auto;
+            .pn-insur-left {
+                float:left;
+                h3 {
+                    display: block;
+                    margin: .35rem 0 0 .33rem;
+                    width: 1.025rem;
+                    height: .27rem;
+                    line-height: .27rem;
+                    text-align: center;
+                    font-size: .14rem;
+                    color: #F53F25;
+                    background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-insur-ppt.png') no-repeat top center;
+                    background-size: 100% auto;
+                }
+                h3.pn-h3-bg {
+                    margin-top: .31rem;
+                    width: 1.02rem;
+                    height: .31rem;
+                    line-height: .31rem;
+                    color: white;
+                    background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-ppt-2.png') no-repeat top left;
+                    background-size: 1.02rem .31rem;
+                }
+                img {
+                    margin: .1rem 0 0 .33rem;
+                    width: 1rem;
+                    height: 1rem;
+                    border: .02rem solid #F7624C;
+                }
+            }
+            .pn-insur-right {
+                float: left;
+                width: 1.8rem;
+                text-align: center;
+                h2 {
+                    margin-top: .31rem;
+                    text-align: center;
+                    font-size: .22rem;
+                    color: #7A120A;
+                    font-weight: 450;
+                }
+                p {
+                    line-height: .2rem;
+                    text-align: center;
+                    font-size: .14rem;
+                    color: #8C3700;
+                    small {
+                        font-size: .14rem;
+                    }
+                }
+                p.pn-insur-p {
+                    display: block;
+                    height: .4rem;
+                    line-height: .4rem;
+                }
+                span {
+                    display: block;
+                    margin-top: 0.01rem;
+                    font-size:.16rem;
+                    color: #F62A19;
+                }
+                a {
+                    display: block;
+                    margin: .03rem auto 0;
+                    width: 1.4rem;
+                    height: .35rem;
+                    line-height: .35rem;
+                    border: 0;
+                    border-radius: .45rem;
+                    font-size: .16rem;
+                    color: white;
+                    outline: none;
+                    /* 旧语法，带前缀并且已经废弃，以支持老版本的浏览器 */
+                    background: -prefix-linear-gradient(left, #FF7543, #F10404); 
+                    /* 新语法，不带前缀，以支持标准兼容的浏览器（Opera 12.1， IE 10， Firefox 16， Chrome 26， Safari 6.1） */
+                    background: linear-gradient(to right, #FF7543, #F10404);
+                    -webkit-box-shadow: 0 0 .11rem rgba(255, 120, 21, 0.83);
+                    -moz-box-shadow: 0 0 .11rem rgba(255, 120, 21, 0.83);
+                    box-shadow: 0 0 .11rem rgba(249, 60, 35, 0.83);
+                }
+                a.pn-insur-accident {
+                    /* 旧语法，带前缀并且已经废弃，以支持老版本的浏览器 */
+                    background: -prefix-linear-gradient(left, #FFAB1B, #FF5C0F); 
+                    /* 新语法，不带前缀，以支持标准兼容的浏览器（Opera 12.1， IE 10， Firefox 16， Chrome 26， Safari 6.1） */
+                    background: linear-gradient(to right, #FFAB1B, #FF5C0F);
+                    -webkit-box-shadow: 0 0 .11rem rgba(253, 80, 18, 0.83);
+                    -moz-box-shadow: 0 0 .11rem rgba(253, 80, 18, 0.83);
+                    box-shadow: 0 0 .11rem rgba(253, 80, 18, 0.83);
+                }
+                a.pn-accident-receive {
+                    /* 旧语法，带前缀并且已经废弃，以支持老版本的浏览器 */
+                    background: -prefix-linear-gradient(left, #CCCCCC, #A1A1A1); 
+                    /* 新语法，不带前缀，以支持标准兼容的浏览器（Opera 12.1， IE 10， Firefox 16， Chrome 26， Safari 6.1） */
+                    background: linear-gradient(to right, #CCCCCC, #A1A1A1);
+                    -webkit-box-shadow: 0 0 .11rem rgba(155, 155, 155, 0.83);
+                    -moz-box-shadow: 0 0 .11rem rgba(155, 155, 155, 0.83);
+                    box-shadow: 0 0 .11rem rgba(155, 155, 155, 0.83);
+                }
+            }
+        }
+    }
+    .pn-slogan {
+        padding: .35rem 0 .8rem;
+        background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-btm-bg2.png') no-repeat bottom center;
+        background-size: 100% auto;
+        text-align: center;
+        span {
+            position: relative;
+            font-size: .13rem;
+            color: #FFECC7;
+        }
+        span::before, span::after {
+            content: '';
+            position: absolute;
+            top: .05rem;
+            width: .05rem;
+            height: .05rem;
+            border: 1px solid #FFECC7;
+            border-radius: 50%;
+        }
+        span::before {
+            left: -.13rem;
+        }
+        span::after {
+            right: -.13rem;
+        }
+    }
+    .pn-seat {
+        height: .1rem;
+        background: #FFE7AF;
+    }
+    .pn-rell2 {
+        position: relative;
+        padding-top: .25rem;
+        background: #FFE7AF;
+        .pn-rell-make {
+            width: 3.34rem;
+            height: 3.38rem;
+            margin: 0 auto;
+            background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-make-cash.png') no-repeat top center;
+            background-size: 100% auto;
+            overflow: hidden;
+            a {
+                display: block;
+                margin: 2.8rem auto 0;
+                width: 1.88rem;
+                height: .4rem;
+                text-align: center;
+                font-size: .15rem;
+                font-weight: bold;
+                color: #D43B2A;
+                border-radius: .4rem;
+                background: #FFE7AF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                -webkit-box-shadow: 0 0 .11rem rgba(255, 231, 175, 0.6);
+                -moz-box-shadow: 0 0 .11rem rgba(255, 231, 175, 0.6);
+                box-shadow: 0 0 .11rem rgba(255, 231, 175, 0.6);
+            }
+        }
+        .pn-rpacket-hb {
+            position: relative;
+            margin: .15rem auto 0;
+            width: 2.8rem;
+            height: 1.65rem;
+            overflow: hidden;
+            .pn-rpacket-list {
+                position: absolute;
+                top: -0.55rem;
+                width: 100%;
+                height: 3.25rem;
+                transition: All 0s linear;
+                -webkit-transition: All 0s linear;
+                -moz-transition: All 0s linear;
+                -o-transition: All 0s linear;
+                .pn-rpacket-info {
+                    overflow: hidden;
+                    height: .5rem;
+                    margin-bottom: .05rem;
+                    border-radius: .06rem;
+                    background: white;
+                    -webkit-box-shadow: 0 0 .08rem rgba(185, 155, 84, 0.12);
+                    -moz-box-shadow: 0 0 .08rem rgba(185, 155, 84, 0.12);
+                    box-shadow: 0 0 .08rem rgba(185, 155, 84, 0.12);
+                    .pn-ri-left {
+                        float: left;
+                        width: .33rem;
+                        height: .33rem;
+                        margin: .1rem 0 0 .13rem;
+                        border: 1px solid #FFAF3C;
+                        border-radius: 50%;
+                        background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-insur-face.png') no-repeat bottom center;
+                        background-size: 100% 100%;
+                        img {
+                            position: relative;
+                            top:0;
+                            left:0;
+                            margin:0;
+                            padding:0;
+                            width: .33rem;
+                            height: .33rem;
+                            border-radius:50%;
+                        }
+                    }
+                    .pn-ri-center {
+                        float: left;
+                        margin-left: .15rem;
+                        h3 {
+                            margin-top: .07rem;
+                            font-size: .14rem;
+                            color: #333;
+                            font-weight: 400;
+                        }
+                        span {
+                            display:block;
+                            margin-top: .01rem;
+                            line-height: .15rem;
+                            font-size: .12rem;
+                            color: #999;
+                        }
+                    }
+                    .pn-ri-right {
+                        float: right;
+                        padding-right: .1rem;
+                        span {
+                            line-height: .5rem;
+                            font-size: .16rem;
+                            color: #FF1B1B;
+                        }
+                    }
+                }
+            }
+            .slide-list {
+                transition: All 0.4s linear;
+                -webkit-transition: All 0.4s linear;
+                -moz-transition: All 0.4s linear;
+                -o-transition: All 0.4s linear;
+                transform: translate(0, 0.55rem);
+                -webkit-transform: translate(0, 0.55rem);
+                -moz-transform: translate(0, 0.55rem);
+                -o-transform: translate(0, 0.55rem);
+                -ms-transform: translate(0, 0.55rem);
+            }
+        }
+        .pn-rpacket-three {
+            position: relative;
+            span {
+                position: absolute;
+            }
+            .pn-three-1 {
+                top: -.84rem;
+                left: .15rem;
+                width: .44rem;
+                height: .47rem;
+                background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-small-red.png') no-repeat bottom center;
+                background-size: 100% 100%;
+            }
+            .pn-three-2 {
+                top: -1.44rem;
+                right: .09rem;
+                width: .61rem;
+                height: .59rem;
+                background: url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-big-red.png') no-repeat bottom center;
+                background-size: 100% 100%;
+            }
+        }
+        .pn-rpacket-sum {
+            padding-top: .13rem;
+            overflow: hidden;
+            div {
+                float: left;
+            }
+            .pn-sum-left {
+                width: 53%;
+                padding-right: .07rem;
+                font-size: .14rem;
+                color: #D43B2A;
+                text-align: right;
+            }
+            .pn-sum-right {
+                width: 47%;
+                padding-left: .07rem;
+                text-decoration: underline;
+                font-size: .14rem;
+                color: #E57F5F;
+                text-align: left;
+            }
+        }
+    }
+    .pn-qrcode {
+        background: #FFE7AF;
+        text-align: center;
+        img {
+            width: .95rem;
+        }
+    }
+    .pn-prize2 {
+        padding-top: .63rem;
+        text-align: center;
+        background: #FFE7AF url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-gae-prize.png') no-repeat top center;
+        background-size: 100% auto;
+        .pnp-before {
+            padding-bottom: .1rem;
+            a {
+                font-size: .14rem;
+                color:#333;
+                text-decoration: underline;
+            }
+        }
+        .pnp-top {
+            margin: 0 .25rem;
+            padding: .03rem 0;
+            border: 2px solid #333;
+            border-radius: .5rem;
+            p {
+                text-align: center;
+                font-size: .13rem;
+                color: #333;
+                span {
+                    color:#FF2E32;
+                }
+            }
+        }
+        .pnp-bracket {
+            margin: 0 auto;
+            width: 1.08rem;
+            height: .14rem;
+            border-left: 2px solid #333;
+            border-right: 2px solid #333;
+        }
+        img {
+            margin: 0 auto;
+            width: 3.35rem;
+        }
+        .pnp-bottom {
+            small {
+                display: block;
+                margin: .08rem auto 0;
+                width: 1.58rem;
+                height: .28rem;
+                line-height: .3rem;
+                border-radius: .28rem;
+                font-size: .14rem;
+                color: #333;
+                background: #FFCC54;
+            }
+            a {
+                display: block;
+                margin: .15rem auto 0;
+                width: 2.05rem;
+                padding-bottom: .02rem;
+                border-top-left-radius: .16rem;
+                border-top-right-radius: .16rem;
+                border-bottom-left-radius: .06rem;
+                border-bottom-right-radius: .06rem;
+                background: #871101;
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 2.05rem;
+                    height: .45rem;
+                    font-size: .2rem;
+                    color: white;
+                    font-weight: bold;
+                    border-radius: .06rem;
+                    /* 旧语法，带前缀并且已经废弃，以支持老版本的浏览器 */
+                    background: -prefix-linear-gradient(left, #FF7543, #F10404); 
+                    /* 新语法，不带前缀，以支持标准兼容的浏览器（Opera 12.1， IE 10， Firefox 16， Chrome 26， Safari 6.1） */
+                    background: linear-gradient(to right, #FF7543, #F10404);
+                }
+            }
+            p {
+                margin-top: .15rem;
+                font-size: .15rem;
+                color: #C91C15;
+                text-decoration: underline;
+            }
+        }
+    }
+    .pn-prize {
+        background: #FFE7AF;
+        text-align: center;
+        img {
+            margin: .15rem 0 .05rem;
+        }
+        p {
+            padding: 0 .3rem;
+            font-size: .14rem;
+            color: #333;
+            text-align: left;
+        }
+        a {
+            display: block;
+            margin-top: .1rem;
+            font-size: .14rem;
+            color: #186CDF;
+            text-decoration: underline;
+        }
+    }
+    .pn-party {
+        padding-bottom:.2rem;
+        background: #FFE7AF;
+        overflow: hidden;
+        img {
+            float:left;
+        }
+    }
+    .pn-follow {
+        padding: .15rem 0 .18rem;
+        background: #FFE7AF;
+        text-align: center;
+        p {
+            line-height: .25rem;
+            font-size: .15rem;
+            color: #FF0505;
+        }
+        span {
+            display: block;
+            margin-top: .1rem;
+            font-size: .12rem;
+            color: #666;
+        }
+    }
+    .pn-foot {
+        height: .5rem;
+        line-height: .5rem;
+        background: #FF492F;
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            font-size: .19rem;
+            color: white;
+        }
+    }
+    .pn-already {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 2.25rem;
+        height: .86rem;
+        margin: -.43rem 0 0 -1.125rem;
+        text-align: center;
+        background:  rgba(0, 0, 0, 0.7);
+        border-radius: .05rem;
+        h3 {
+            margin-top: .17rem;
+            font-size: .2rem;
+            color: white;
+            font-weight: 400;
+        }
+        span {
+            display: block;
+            font-size: .15rem;
+            color: white;
+        }
+    }
+    .pn-already.pn-lead {
+        display: block;
+    }
+}
+/*=== start [免费领取] ===*/
+.pn-receive {
+     background: white;
+    .pn-pay-plan {
+        position:relative;
+        padding:.1rem 0 .06rem;
+        h3 {
+            font-size:.14rem;
+            font-weight:400;
+            color:#999;
+            span {
+                display:inline-block;
+                line-height:.24rem;
+            }
+        }
+        i {
+            position: absolute;
+            top:.08rem;
+            right:.05rem;
+            width:.27rem;
+            height:.27rem;
+            background:url('//cdn-test.qsebao.com/static/images/global/icon-07.png') no-repeat center center;
+            background-size:15px auto;
+            cursor: pointer;
+        }
+    }
+    .pn-pay-form {
+        position: relative;
+        .weui-cells {
+            margin: 0;
+            padding-right: .15rem;
+            .weui-cell__hd {
+                display: flex;
+                vertical-align:middle;
+            }
+            .weui-label {
+                margin-top: .02rem;
+                height: .21rem;
+                line-height: .21rem;
+                font-size: .15rem;
+                color: #333;
+            }
+            .weui-cell__bd {
+                margin-left: .13rem;
+                input {
+                    height: .21rem;
+                    line-height: .21rem;
+                    font-size: .15rem;
+                    color: #333;
+                }
+            }
+            
+        }
+        .weui-cell {
+            padding: .09rem .15rem;
+        }
+        .weui-cell:before {
+            left: .88rem;
+        }
+        .weui-cells:after {
+            left: .88rem;
+            right: .15rem;
+        }
+        i {
+            position: absolute;
+            top: 0;
+            right: .05rem;
+            width: .5rem;
+            height: .45rem;
+            background:url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-id.png') no-repeat center center;
+            background-size:.2rem .15rem;
+            overflow: hidden;
+            .weui-cell {
+                height: .5rem;
+            }
+            .weui-cell__ft {
+                display: none;
+            }
+            .vux-popup-picker-value {
+                display:none;
+            }
+        }
+        span {
+            position: absolute;
+            top: 50%;
+            right: .15rem;
+            margin-top: .1rem;
+            padding: 0 .03rem;
+            height: .22rem;
+            line-height: .22rem;
+            font-size: .14rem;
+            color: #FFA819;
+            border: 1px solid #FFA819;
+            border-radius: .05rem;
+        }
+        span.active {
+            color: #aaa;
+            border: 1px solid #aaa;
+        }
+    }
+    .pn-pay-clause {
+        padding:.05rem .15rem 0 0;
+        line-height: .16rem;
+        text-align: left;
+        font-size:.12rem;
+        color:#999;
+        .vux-check-icon {
+            float:left;
+            .weui-icon:before {
+                margin:.06rem .05rem 0 .15rem;
+                font-size:.16rem;
+            }
+            .weui-icon-success-circle:before {
+                color: #FFA819;
+            }
+        }
+        a {
+            color: #FFA819;
+        }
+    }
+    .pn-pay-submit {
+        padding:.05rem .1rem .1rem .1rem;
+        button {
+            background: -prefix-linear-gradient(left, #FF7242, #F74D1F); 
+            background: linear-gradient(to right, #FF7242, #F74D1F);
+        }
+        button:active {
+            background: -prefix-linear-gradient(left, #FF7242, #F74D1F); 
+            background: linear-gradient(to right, #FF7242, #F74D1F);
+        }
+    }
+}
+.weui-actionsheet .weui-actionsheet__cell {
+    padding: 0px;
+}
+.pn-index {
+    .weui-mask_transparent {
+        z-index: 488!important;
+    }
+    .weui-actionsheet {
+        z-index: 499!important;
+    }
+}
+/*=== end [免费领取] ===*/
+
+/*=== start [dialog基本样式] ===*/
+.dialog-module {
+    font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    .dialog-header {
+        height:50px;
+        line-height:60px;
+        font-size:16px;
+        font-weight:400;
+        color:#222;
+        overflow:hidden;
+    }
+    .dialog-body {
+        max-height:320px;
+        overflow-y:auto;
+        p {
+            padding:0 10px;
+            text-align:left;
+            font-size:16px;
+            color:#666;
+            word-wrap: break-word;
+        }
+        .weui-cell {
+            padding-left:10px;
+            padding-right:10px;
+            font-size:14px;
+            color:#333;
+        }
+        .weui-cell:before {
+            left:0;
+        }
+    }
+    .dialog-ppt {
+        color: #FFA819;
+        p {
+            padding-top:5px;
+            text-align: left;
+            text-indent:15px;
+            font-size:11px;
+            color:#ccc;
+        }
+    }
+    .dialog-footer {
+        color: #FFA819;
+        font-weight: 600;
+        border-radius: 0;
+        padding: 10px 15px;
+        font-size: 17px;
+        vertical-align: middle;
+        button {
+            font-size:16px;
+            color:white;
+            background-color: #FFA819;
+        }
+        button:active {
+            background-color: #3D7DCC;
+        }
+    }
+}
+/*=== end [dialog基本样式] ===*/
+.pn-cb-dialog, .pn-pay-dialog, .pn-copy-dialog,  .pn-invite-dialog, .pn-cb-share, .pn-qrcode-dialog {
+    .weui-dialog {
+        width: 300px;
+        margin-left: -150px;
+        transform:none;
+        -webkit-transform: none;
+    }
+    .vux-fade-enter-active,.vux-fade-leave-active {
+        opacity: 1;
+        transition: none!important;
+      }
+      
+      .vux-fade-enter, .vux-fade-leave-to {
+        opacity: 0;
+      }
+      
+      .vux-dialog-enter-active, .vux-dialog-leave-active {
+        opacity: 1;
+        transition-duration: 0!important;
+        transform: none!important;
+        transition-property: none!important;
+      }
+      .vux-dialog-leave-active {
+        transition-duration: 0!important;
+      }
+      .vux-dialog-enter {
+        opacity: 0;
+        transform: none!important;
+      }
+      .vux-dialog-leave-active {
+        opacity: 0;
+        transform: none!important;
+      }
+      
+      .vux-mask-enter, .vux-mask-leave-active {
+        opacity: 0;
+      }
+      .vux-mask-leave-active, .vux-mask-enter-active {
+        transition: opacity 0!important;
+      }
+}
+.pn-cb-dialog, .pn-pay-dialog, .pn-copy-dialog,  .pn-invite-dialog, .pn-qrcode-dialog {
+    position: relative;
+    .dialog-close {
+        i {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: .45rem;
+            height: .45rem;
+            background:url('//cdn-test.qsebao.com/static/images/ground-page/promotion/pn-close.png') no-repeat center center;
+            background-size:.15rem .15rem;
+        }
+    }
+    .dialog-body {
+        padding-top: .32rem;
+        img {
+            width: 1.65rem;
+        }
+        p {
+            margin-top: .05rem;
+            line-height:.24rem;
+            text-align: center;
+            font-size: .17rem;
+            color: #000;
+        }
+    }
+    .dialog-footer {
+        padding: .25rem;
+        button {
+            font-size: .17rem;
+            height: .44rem;
+            background: -prefix-linear-gradient(left, #FF7242, #F74D1F); 
+            background: linear-gradient(to right, #FF7242, #F74D1F);
+        }
+        button:active {
+            background: -prefix-linear-gradient(left, #FF7242, #F74D1F); 
+            background: linear-gradient(to right, #FF7242, #F74D1F);
+        }
+    }
+}
+.pn-qrcode-dialog {
+    .weui-dialog {
+        margin-top: -1.5rem;
+        width: 340px;
+        max-width: 340px;
+        margin-left: -170px;
+    }
+    .dialog-body {
+        padding-bottom: .15rem;
+        img {
+            width: 2.83rem;
+        }
+    }
+}
+.pn-cb-dialog {
+    .weui-dialog {
+        margin-top: -1.6rem;
+    }
+}
+.pn-cb-share {
+    .weui-dialog {
+        margin-top: -1.8rem;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+.pn-pay-dialog {
+    .weui-dialog {
+        margin-top: -1.6rem;
+    }
+    .dialog-body {
+        .pn-pay-1 {
+            width: 1.29rem;
+        }
+        p {
+            margin-top: .1rem;
+            font-size: .16rem;
+        }
+        .pn-pay-2 {
+            margin-top: .1rem;
+            width: 1.62rem;
+        }
+    }
+    .dialog-footer {
+            padding-top: .1rem;
+    }
+}
+.pn-copy-dialog {
+    .weui-dialog {
+        margin-top: -1.2rem;
+    }
+    .pn-copy-art {
+        position: relative;
+        margin: .1rem .2rem 0;
+        border: 1px solid #E3E3E3;
+        border-radius: .05rem;
+        h3 {
+            position:absolute;
+            top: -.12rem;
+            left: 50%;
+            display: block;
+            width: 1.64rem;
+            margin-left: -.82rem;
+            font-size: .16rem;
+            font-weight: 400;
+            background: white;
+        }
+        div {
+            margin: .15rem .1rem .1rem .1rem;
+            text-align: left;
+            text-align: justify;
+            line-height: .2rem;
+            font-size: .12rem;
+            color: #666;
+            outline: none;
+            resize: none;
+            word-break:break-all;
+        }
+    }
+    .pn-copy-wechat {
+        padding-bottom: .05rem;
+        p {
+            text-align: center;
+            font-size: .12rem;
+            color: #333;
+            span {
+                color: #FFA30C;
+            }
+        }
+    }
+}
+.pn-invite-dialog {
+    .weui-dialog {
+        margin-top: -2.4rem;
+    }
+    .dialog-body {
+        padding-top: 0rem;
+        max-height: 4rem;
+        .pn-invite {
+            padding: 0rem .15rem .2rem .15rem;
+            h3 {
+                text-align: left;
+                font-size: .16rem;
+                color: #363636;
+                font-weight: 400;
+            }
+            p {
+                line-height: .2rem;
+                text-align: left;
+                font-size: .13rem;
+                color: #363636;
+            }
+        }
+    }
+}
+.vux-popup-dialog {
+    z-index: 10000!important;
+    .vux-popup-picker-header {
+        background:white!important;
+        height: .55rem!important;
+        .vux-popup-picker-cancel {
+            color: white;
+        }
+        .vux-popup-picker-header-menu {
+            line-height: .55rem;
+        }
+        .vux-popup-picker-cancel::after {
+            content: "";
+            position: absolute;
+            left: .15rem;
+            top: .2rem;
+            width:.15rem;
+            height:.15rem;
+            background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAblJREFUSA211j1OwzAUB/DaTIEb5BpwATp2yMBaIbokCHEGhMQJGMqQLwmpRwgbG0dgQbB04RJIUcL/WXXUpoljO86TnDhf/vklsRNW1zXPsuxuNpv9hGH4jvVkkef5RVmWcwDrE9/374GvUZZBEGyLovicQo7j+LKqKkpsgXLGEd+oVCgc+GuSJNeoOw1C0eAbyik1DPOL0+1ljK2wPQneRmE9wkwY9YCCMqWMUeUoFXUmiqIN6tbRhaLNJ2qwgWnDJa5Cj2BX+BDaCY/FddBe2BbXRZWwKW6CDsK6uCmqBQ/hNqg23Idj3P/iWDMj0eQgxyldo4qDcaw6kY61xzl2/aF4dMwEFefTwiRauLjUFKWLaHo0it3tpUxFAK1R2e42tVdG8N6LJG8v+lEzFOOvmja8h4pPG91epHeDYvVV03q5ulD59raeufZXbRBWofKB2uBKWAe1xXthE9QG74RtUFP8CB6DmuAHsAtUF29gl6gOLuAp0CGcpWl6jj/8D5zYzEhycpAXj123xzl+6K9oypxPiVKnkcgGU+wKVTG9ItEFx+IFO57Ri1vXmaLdJginTLEj8Tzv4R+ER4dsiLeJawAAAABJRU5ErkJggg==') no-repeat center center;
+            background-size: .15rem .15rem; 
+        }
+        .vux-popup-picker-header-menu-right {
+            font-size: .15rem;
+            color: #FFA819;
+        }
+        .vux-popup-picker-header-menu-right::after {
+            content: "请选择";
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-left: -.24rem;
+            font-size:.16rem;
+            color:#5A4B41;
+            font-weight: 400;
+        }
+    }
+    .vux-picker {
+        .vux-picker-item {
+            background:white;
+        }
+        .scroller-component {
+            width: auto;
+            margin: 0 .15rem;
+            background: white;
+        }
+        .scroller-item-selected {
+            color: #FFA819;
+        }
+    }
+}
+.fade-in {
+    -webkit-animation: 'fadeIn' 1.2s ease-in-out 0s 1 alternate forwards;
+    animation: 'fadeIn' 1.2s ease-in-out 0s 1 alternate forwards;	
+}
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.pn-btn-se {
+    -webkit-animation: 'pn-btn-se' 1.2s infinite linear;
+    animation: 'pn-btn-se' 1.2s infinite linear;	
+}
+@keyframes  pn-btn-se{
+
+    0%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+    }
+
+    40%{
+        transform:scale(1.1,1.1);
+        -moz-transform:scale(1.1,1.1);
+        -webkit-transform:scale(1.1,1.1);
+        -o-transform:scale(1.1,1.1);
+        -ms-transform:scale(1.1,1.1);
+    }
+
+    100%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+    }
+}
+
+@-webkit-keyframes  pn-btn-se{
+
+    0%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+    }
+
+    40%{
+        transform:scale(1.1,1.1);
+        -moz-transform:scale(1.1,1.1);
+        -webkit-transform:scale(1.1,1.1);
+        -o-transform:scale(1.1,1.1);
+        -ms-transform:scale(1.1,1.1);
+    }
+
+    100%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+    }
+}
+
+@-moz-keyframes  pn-btn-se{
+
+    0%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+
+    }
+
+    40%{
+        transform:scale(1.1,1.1);
+        -moz-transform:scale(1.1,1.1);
+        -webkit-transform:scale(1.1,1.1);
+        -o-transform:scale(1.1,1.1);
+        -ms-transform:scale(1.1,1.1);
+    }
+
+    100%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+    }
+
+}
+
+@-o-keyframes  myMove{
+
+    0%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+    }
+
+    40%{
+        transform:scale(1.1,1.1);
+        -moz-transform:scale(1.1,1.1);
+        -webkit-transform:scale(1.1,1.1);
+        -o-transform:scale(1.1,1.1);
+        -ms-transform:scale(1.1,1.1);
+    }
+
+    100%{
+        transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -o-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .pn-payment .pay-check-container .vux-checker-item {
+        margin-left:0px;
+    }
+}

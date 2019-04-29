@@ -1,0 +1,122 @@
+.cardFamily-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    .container {
+      -webkit-flex: 1;
+      flex: 1;
+    }
+    .check-rela {
+        width: 100%;
+        .weui-cells__title {
+            color: #666;
+            margin: 0;
+            padding: .1rem .15rem .06rem;
+        }
+        .check-rela-con {
+            padding: .15rem .15rem .09rem .15rem;
+            font-size: .15rem;
+            color: #666;
+            .check-rela-des {
+                color: #aaa;
+                font-size: .12rem;
+            }
+            .relationship-container {
+              -webkit-justify-content: space-between;
+              padding: .07rem 0;
+              justify-content: space-between;
+            }
+            .relationship-item {
+              padding: .05rem .18rem;
+              line-height: 1;
+              font-size: .14rem;
+              color: #aaa;
+              border: 1px solid #aaa;
+              border-radius: .05rem;
+            }
+            .relationship-item-selected {
+              border-color: #3681DE;
+              color: #fff;
+              background-color: #3681DE;
+            }
+        }
+    }
+    .write-info {
+        width: 100%;
+        -webkit-flex: 1;
+        flex: 1;
+        .weui-cells {
+            font-size: .14rem;
+        }
+        .weui-cell__hd {
+            width: 1rem;
+        }
+        .check-social {
+            .weui-cell__hd {
+                width: 0;
+            }
+        }
+        .social-item {
+          line-height: 1.6;
+          font-size: .14rem;
+          color: #aaa;
+          width: .48rem;
+          text-align: center;
+          border: 1px solid #aaa;
+          margin-right: .1rem;
+          border-radius: .05rem;
+        }
+        .social-item-selected {
+          border-color: #3681DE;
+          color: #fff;
+          background-color: #3681DE;
+        }
+    }
+    .cardFamily-bottom {
+        // position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0 .15rem .25rem;
+        text-align: center;
+        .agreement {
+            position: relative;
+            color: #4A4A4A;
+            font-size: .12rem;
+            margin-bottom: .16rem;
+            a {
+                color: #3681DE;
+            }
+        }
+        .agreement-icon {
+          display: block;
+          width: .13rem;
+          height: .13rem;
+          left: .6rem;
+          top: 50%;
+          margin-top: -.08rem;
+          position: absolute;
+          background-size: 100%;
+          background-image: url('//cdn-test.qsebao.com/static/images/unagreement-icon.png');
+          background-repeat: no-repeat;
+        }
+        .agreeProtocol {
+          background-image: url('//cdn-test.qsebao.com/static/images/agree-icon.png');
+        }
+        .submit-button {
+            height: .44rem;
+            color: #fff;
+            font-size: .16rem;
+            background-color: #3681DE;
+            line-height: .44rem;
+            border-radius: .05rem;
+        }
+    }
+}

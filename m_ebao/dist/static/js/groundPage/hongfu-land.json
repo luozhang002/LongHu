@@ -1,0 +1,115 @@
+{
+    "code": 0,
+    "data": {
+        "title": "轻松保-鸿福e生百万医疗保障计划",
+        "url": "/hongfuPay",
+        "cc1": "hongfu_publicity_01",
+        "cc2": "hongfu_publicity_02",
+        "cc3": "hongfu_publicity_03",
+        "banner": {
+            "img": "//cdn-test.qsebao.com/static/images/ground-page/banner-top-hongfu.png",
+            "label": "鸿福e生百万医疗险",
+            "skin": "//cdn-test.qsebao.com/static/images/ground-page/label-bg-hongfu.png",
+            "btnSkin": "background-image: linear-gradient(90deg, #9E4EFD 0%, #4EB8FC 100%);",
+            "progressSkinClass": "progress-orange"
+        },
+        "whyNeedTextColor": "#FB772A",
+        "whyNeed": [
+            "已经加入轻松互助",
+            "为什么还需要百万医疗险"
+        ],
+        "needReason": [
+            {
+                "title": "互助补充，叠加赔付",
+                "des": [
+                    "轻松互助—确诊即赔，垫付住院费",
+                    "百万医疗险—后续治疗全报销，保障更全面"
+                ],
+                "desImg": "//cdn-test.qsebao.com/static/images/ground-page/reason-des-hongfu1.png",
+                "imgWidth": "2.55rem",
+                "skin": "#FC8B33"
+            },
+            {
+                "title": "保障范围更全面",
+                "des": [
+                    "互助的全面升级和补充"
+                ],
+                "desImg": "//cdn-test.qsebao.com/static/images/ground-page/reason-des-hongfu2.png",
+                "imgWidth": "2.83rem",
+                "skin": "#FC8B33"
+            },
+            {
+                "title": "30天-60周岁投保，保障至终身",
+                "des": [
+                    "理赔后也能续保，可保障至80岁"
+                ],
+                "desImg": "//cdn-test.qsebao.com/static/images/ground-page/reason-des-hongfu3.png",
+                "imgWidth": "2.48rem",
+                "skin": "#FC8B33"
+            }
+        ],
+        "activity": {
+            "img": "//cdn-test.qsebao.com/static/images/ground-page/activity-hongfu-bg.png",
+            "textBtnTop": "1.25rem",
+            "btnSkin": "background-image: linear-gradient(-90deg, #65D42F 0%, #83EF5C 100%);"
+        },
+        "policyDetail": {
+            "effect": {
+                "title": "国民医保，守护家人健康",
+                "des": "百万医疗保障，免除后顾之忧",
+                "list": [
+                    {
+                        "img": "//cdn-test.qsebao.com/static/images/ground-page/parents.png",
+                        "text": "父母长寿"
+                    },
+                    {
+                        "img": "//cdn-test.qsebao.com/static/images/ground-page/lover.png",
+                        "text": "爱人健康"
+                    },
+                    {
+                        "img": "//cdn-test.qsebao.com/static/images/ground-page/baby.png",
+                        "text": "宝贝快乐"
+                    }
+                ]
+            },
+            "example": {
+                "title": "案例说明",
+                "headerImg": "//cdn-test.qsebao.com/static/images/ground-page/example-header.png",
+                "list": [
+                    {
+                        "left": "主人翁：",
+                        "right": "张先生，40岁,有社保，妻子为他购买了华泰鸿福e生医疗险2018升级版。"
+                    },
+                    {
+                        "left": "案 例：",
+                        "right": "等待期过后一段时间内经常感觉胸痛气急、并伴有阵发性刺激性干咳，经医院诊断为Ⅲa期非小细胞肺癌，需要尽快安排住院手术。当地三甲医院就医患者众多，家人亦不熟悉流程，于是张先生立即致电华泰指定的合作机构远盟服务热线（4008185050）告知情况并提出住院安排、手术安排及住院垫付等服务申请，远盟在10个工作日内完成了张先生住院手术安排，及时对肺癌原发病灶及转移淋巴结进行了完全切除。为了保证疗效，手术后进行了4次化疗。医生选择了最新的化疗方案，多数药品为医保不能报销的进口药，同时医生也选择了较为昂贵的化疗辅助药以降低呕吐、血细胞减少等副作用的危害。</br ></br >张先生住院前后门急诊及后期的特殊门诊治疗合计医疗费30万元。其中社保统筹支付了10万元，由华泰指定的合作机构远盟垫付住院治疗费用20万元。"
+                    },
+                    {
+                        "left": "赔付：",
+                        "right": "张先生因确诊恶性肿瘤接受住院治疗，针对确认日后发生的医疗费用，华泰均按照0免赔计算赔款。张先生患病发生的医疗费用共计30万元，扣除社保统筹支付的10万元，住院垫付了20万元（由远盟代客户向保险公司理赔）。"
+                    }
+                ],
+                "tip": ""
+            },
+            "question": {
+                "title": "常见问题",
+                "list": [
+                    {
+                        "title": "1.已经加入轻松互助，还要够买百万医疗险吗？",
+                        "context": "非常有必要，建议购买。轻松互助属于给付型保障，持确诊证明可获得最高30万互助金作为大病保障。百万医疗险属于报销型保险，持医院缴费凭证可报销医疗费用。</br >所以，轻松互助和百万医疗险是重大疾病保障的黄金搭档。"
+                    },
+                    {
+                        "title": "2.有了医保，还需要购买百万医疗险吗？",
+                        "context": "随着医疗技术的不断进步，癌症患者的5年后存活率已达到70%，而治愈过程中庞大的医疗费用，很多是医保不能覆盖的自费药和自费项目。而鸿福e生·医疗险没有这些限制，是医保最好的商业保险补充。"
+                    },
+                    {
+                        "title": "3.如何获得理赔？",
+                        "context": "拨打华泰保险7*12小时客服电话报案400-609-5509</br >根据专人指引收集好所有理赔资料</br >递交理赔材料至华泰保险公司进行审核</br >审核通过后，保险公司打款操作。"
+                    }
+                ]
+            }
+        }
+
+    },
+    "message": "success"
+}

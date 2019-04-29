@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>健康告知</title>
+    <style>
+    #document {
+    min-height: 100%;
+    background: #FFF;
+    padding: 0 8px
+}
+
+#document ul {
+    padding: 5px 0 0
+}
+
+#document dl,#document dt {
+    margin: 0;
+    padding: 0
+}
+
+#document dl {
+    position: relative;
+    overflow: hidden
+}
+
+#document dt {
+    float: left;
+    text-align: center;
+    width: 25%;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 15px 0;
+    font-size: 14px
+}
+
+@media (max-width: 320px) {
+    .h5ui-modal .modal-body {
+        max-height:240px
+    }
+
+    #document dt {
+        font-size: 12px
+    }
+}
+
+#document .selected {
+    color: #FFB510;
+    font-weight: bolder;
+    position: relative
+}
+
+#document .selected:after {
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 2px;
+    background: #FFB510;
+    bottom: -1px
+}
+
+#document .tab-content {
+    padding: 0 15px 15px
+}
+
+#document .tab-content .new_title {
+    margin: 0 auto 20px;
+    width: 281px;
+    background: url(https://huzhu2.qschou.com/img/clause_bg.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100px
+}
+
+#document .tab-content .new_title p {
+    text-align: center;
+    font-size: 30px;
+    color: #FFB510;
+    line-height: 100px
+}
+
+#document .tab-content h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    color: #333
+}
+
+#document .tab-content p {
+    text-align: justify;
+    padding: 0 6px;
+    color: #666
+}
+
+#document .tab-content .content_style {
+    font-size: 14px;
+    color: #999;
+    margin: 20px auto
+}
+
+#document .tab-content ul li {
+    margin: 20px auto!important;
+    color: #333;
+    font-size: 14px
+}
+
+#document .tab-content ul li p {
+    background-color: #F2F2F2!important;
+    padding: 17px;
+    border-radius: 10px;
+    margin-top: 15px
+}
+
+.table td,.table th {
+    border: 1px solid #999;
+    border-collapse: collapse
+}
+
+.table {
+    font-size: 12px;
+    text-align: center;
+    border-collapse: collapse
+}
+
+.table th {
+    width: 143px
+}
+
+.table td {
+    width: 10px
+}
+
+</style>
+</head>
+<body>
+    <div id="document" hidden="" style="display: block;">
+        <div class="tab-content">
+            <div class="new_title">
+                <p class="titleOne" style="margin: 0px">健康要求</p>
+            </div>
+            <ul style="list-style-type: none">
+                <p class="content_style">加入本行动，您需要仔细阅读并如实承诺以下事项，若您存在以下任何一项情况，将不能参加本行动；若您未如实告知其中任何一项情况，将来申请互助时，运营方将按规定拒绝您的申请</p>          <li style="margin: 0px auto">       1. 在过去三年内曾因疾病（非意外事故）连续住院治疗七天或七天以上，或因其它慢性疾病需要长期（三个月以上）服药控制或手术治疗。            </li>          <li style="margin: 0px auto">       2. 目前或曾经患有下列任一疾病：              <p class="content_style_p">         高血压（收缩压≥140mmHg或舒张压≥90mmHg）、冠心病、先天性心脏病、肺心病、风湿性心脏病、心肌病、心脏瓣膜病、主动脉疾病、心律失常、川崎病，慢性支气管炎、肺气肿、肺栓塞、间质性肺病、支气管哮喘（重度持续或以上、或未达重度持续但6个月存在哮喘急性发作达到重度或重度以上），癫痫、脑出血、脑栓塞、脑血管瘤、脑血管畸形、脑炎、脑膜炎，乙肝（含乙肝携带者）、丙肝（含丙肝携带者）、自身免疫性肝炎、肝硬化、酒精性肝病、多囊肝，消化道溃疡、萎缩性胃炎、胰腺炎、慢性或溃疡性结肠炎、克罗恩病，慢性肾炎、狼疮性肾炎、肾功能不全、尿毒症、多囊肾，糖耐量异常、糖尿病、甲状腺疾病，类风湿性关节炎、风湿病、强直性脊柱炎、骨髓炎，反复鼻或牙龈出血、白细胞减少、贫血、白血病、再生障碍性贫血、血友病、骨髓增生异常综合征，系统性红斑狼疮，多发性硬化、运动神经元病、重症肌无力、肌营养不良症，阿尔茨海默病，帕金森综合征，视网膜疾病、青光眼、白内障、中耳炎，癌症、肿瘤（包含肉瘤、交界性肿瘤、息肉、良性脑肿瘤等、侵蚀性葡萄胎）、病理学描述为癌前病变的疾病，先天性疾病、遗传性疾病、职业病（如尘肺、矽肺、各种慢性中毒），智力障碍，抑郁症、精神病。<br><br>                  特定传染病(鼠疫、霍乱、病毒性肝炎、痢疾、艾滋病、梅毒、流行性出血病、狂犬病、疯牛病、炭疽、黑热病、疟疾、登革热、人感染高致病禽流感、传染性非典型肺炎、甲型H1N1流感、MERS和埃博拉出血热。<br><br>         </p>            </li>          <li style="margin: 0px auto">       3. 目前或曾经存在以下情形：              <p class="content_style_p">         吸毒；酒精或药物滥用成瘾；身体残障导致无法正常工作、生活和出行；失明、失聪、失语；肢体运动功能或躯体感觉障碍；曾接受器官移植手术；三度烧伤。<br><br>         </p>            </li>          <li style="margin: 0px auto">       4. 过去一年内，曾出现或存在下列不明原因的症状或不适：              <p class="content_style_p">         体重减轻超过5公斤(非健身或减肥原因)、不明原因的出血点或瘀块、反复鼻或牙龈出血、咯血、呕血、便血、血尿、阴道流血、呼吸困难、肌肉萎缩、感觉异常或活动障碍。<br><br>         </p>            </li>          <li style="margin: 0px auto">       5. 过去三年内身体存在或曾出现肿物、肿块、包块、结节、肿大。            </li>          <li style="margin: 0px auto">       6. 过去三年内存在异常的检查结果（包括健康体检）：              <p class="content_style_p">         实验室检查（包括且不限于血液、尿液、粪便等的检验检查）、影像学检查（包括且不限于X光、CT、核磁共振、穿刺、造影、胃镜、肠镜、气管镜等）、细胞学检查、宫颈涂片等。<br><br>         </p>            </li>          <li style="margin: 0px auto">       7. 入会身份限制：              <p class="content_style_p">         儿童：出生后检查和产后42天检查已完成且结果均正常，入会后若＜2岁时确诊重疾，需配合平台提供完整检查材料。<br><br>                  孕妇：允许加入，但须保留完整产检病历资料，包括产前检查和产后42天检查，入会后若在生育180天内确诊重疾，需配合平台提供完整检查材料。<br><br>                  任何因上述资料不齐导致无法确定是否符合互助范围的申请平台有权驳回。<br><br>         </p>            </li>        </ul> </div></div>
+</body>
+</html>

@@ -1,0 +1,604 @@
+.insur-cell {
+
+    padding: 10px 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    .insur-cell-bd {
+        flex: 1;
+        .insur-label {
+            display: block;
+            word-wrap: break-word;
+            word-break: break-all;
+            .insur-badge {
+                display: inline-block;
+                text-align: center;
+                background: #FFCD4D;
+                font-size: 12px;
+                width: 16px;
+                height: 16px;
+                line-height: 16px;
+                border-radius: 8px;
+                margin-bottom:4px;
+                padding: 0;
+                background-clip: padding-box;
+                vertical-align: middle;
+            }
+            .insur-give {
+                padding:2px;
+                font-size:12px;
+                color:#FFCD4E;
+                border: 1px solid #FFCD4E;
+                border-radius:3px;
+            }
+        }
+    }
+    .insur-cell-ft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+        height: 25px;
+        .close-btn {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-image: url('//cdn-test.qsebao.com/static/imgs/cancel-icon.png');
+            -webkit-background-size: 100%;
+            background-size: 100%;
+        }
+        .default {
+            margin: 0 0 0 10px;
+            padding: 0 10px;
+            &.active-bg {
+                color: #fff;
+                background-color: #4B8FFB;
+            }
+        }
+        .total-price {
+            color: #F25B4B;
+        }
+    }
+}
+.insur-tabbar {
+    display: flex;
+    position: fixed;
+    z-index: 500;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    align-items: center;
+    &.bottom-menu-fixed{
+        bottom: 0.34rem;
+    }
+    .online-consulting {
+        display: block;
+        width: 67px;
+        height: 100%;
+        color: #4B8FFB;
+        font-size: 12px;
+        text-align: center;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        .insur-tabbar-icon {
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 5px;
+                left: 50%;
+                width: 19px;
+                height: 19px;
+                margin-left: -10px;
+                background-image: url('//cdn-test.qsebao.com/static/images/global/icon-10.png');
+                -webkit-background-size: 100%;
+                background-size: 100%;
+            }
+        }
+    }
+    .total-price {
+        flex: 1;
+        margin-left:10px;
+        text-align: left;
+        font-size: 15px;
+        span {
+            color: #F25B4B;
+        }
+        i {
+            font-style:normal;
+        }
+    }
+    .insure-now {
+        width: 135px;
+        height: 40px;
+        padding-right: 5px;
+        .insure-now-btn {
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            background-color: #4B8FFB;
+            border-radius: 0.44rem;
+        }
+        .insure-now-btn:active {
+            background-color: #3D7DCC;
+        }
+    }
+}
+.fr-view-more {
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+    .view-more-content {
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        margin-bottom:5px;
+        text-align: center;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #4B8FFB;
+        span {
+            padding-right:15px;
+            background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAAXNSR0IArs4c6QAAA/xJREFUSA2VVt1rFFcUP+dOZhfrF2itJrrJvthQi74UjCZqZrUW/AJ9qI9SUtAX/wDz5YOJX33wQSg0gtr6JCoWEaXQ1o1EjeuLNEptaCGbxCSuSZpWkuh+zJyec7NTbiYTjQvL3HvP7/7OnXPP+Z1BmMNv84mhZTkvX01EKxR4pR6oIUR8EVH2g46G0uF3UeBsgC+vkNXXnT4AhF8D0FrGJQHxJQINEmAZEH3EawkAfAJI58sr45eu7kc3jC/USVVr7ybwqI3JRwGt1vLKWDsT5IIEfJBIX3e/A+Q28QE+5P/BVFPFvSBuhpP1LT17geBHsHD3o8b4reCG2eZVLemdBPQ9v1n9o+b4eROnzEnVsXQdAl5TiGtMBxvP9M9zklRiYoPjVHP8tg2RzUjwnT6oAfjfiYSIkE6VgP3pw+b4MwMD7oT7w+uO3ssH28g214Pj+80ruxFhnURCh7wI0E7kkvkiz/FbfCXA4GaL4CQhOL9l0lflHoJ2cy4H5MzbJXyal43ayVQW0Yi8srnBH3cejT+2yEqwo+q+P3qv7zhLUd8W9tQ8RCOalwHFcGGdsqzjYRv8tc6jsSdoKYcAPhv9J31D7sm3hT45K6fSn51IofGrrVu1OpYMBRuLqYaK3220HQ7rWnfcvbmnbfADwzxtKGkv9SX8SioZEELrYNqu4kTuTNlWLRfgx5lM9rbz7csFYbhiXSWFn1WClhNXchhwtrXO+thfXA+1nEnx16OTP9WcHl4YimVeLUWIXpkiGggFvWWRC67Hwmgt31FpITv+8+en/l4chIsEidYxvxr0EFcGAXOZKyv/iiVjjMO9ZKIwMSNsonEipgoUZtCjZXMhNTHbTjxfmivQHV6bH1FY29kUmxkNFlFRayVyzcDEu4rMdCAZM+7mJRttsOY5HY3xIdMu4yJfQviV7geIXc//7E8EgWFz55ueFblCtp1tFLWiiVTj8kwYTqsztwHhLxYjXfBctzEMbK7VnO4rm8xCO1d+doFlb31rw9LyT1qNtRNpONIPRK5NUnO8pXUgVsh6d1n8XkVKcNuvDatGTbs5Xn88vYtTfKnmZYN2ojsaNxzO6VsbWtKfmBtkXN06WJGl/F3OopFFkcXb79VXjAUx/rymZaCSa+8iJ9Qhv1MWwwWgOxrCPiLo0kB/Fz9dL3eYHwMlkflf/HJkyb+GadpQDlig/FNpXGaHDOmMaenpJ0X2fVUWyX4zNhS9eahschqrMdGdkSOBytqbaiq/YZg4ACE/3XC4H7Bwjog6i3jO1uMlK3XSvE+P933K6af6AdaJSvN6khQOiwSJQqB8rRA4nDBd/OYX3vtrxXfkP/3vLhFT0TqRIlGKuX53/QcDFclLyu874AAAAABJRU5ErkJggg==') no-repeat right center;
+            background-size:11px 11px;
+        }
+    }
+    .view-more-logo {
+        position: absolute;
+        top: 7.5px;
+        right: 10px;
+        display: block;
+        width: auto;
+    }
+}
+.fr {
+    padding-bottom:70px;
+    &.has-bottombar {
+        padding-bottom: 1.04rem;
+    }
+    .fr-banner {
+        img {
+            display: block;
+            width:100%;
+        }
+    }
+    .fr-plan {
+        padding:5px 15px 5px;
+        h3 {
+            font-size:17px;
+            color:#666;
+        }
+        p {
+            font-size:13px;
+            color:#666;
+        }
+    }
+    .fr-quota {
+        margin: 5px 15px;
+        .fr-plan-content {
+            .fr-plan-card {
+                display: flex;
+                background-color: #fff;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                overflow: hidden;
+                >div {
+                    flex: 1;
+                    line-height:18px;
+                    padding: 13px 0 7px;
+                    text-align: center;
+                    font-size: 11px;
+                    color: #aaa;
+                }
+                span {
+                    font-size: 20px;
+                    color: #4B8FFB;
+                }
+                .active-btn {
+                    background-color: #4B8FFB;
+                    color: #fff;
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+            .border-bottom-radius {
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                overflow: hidden;
+            }
+        }
+    }
+    .fr-explain {
+        margin-top:15px;
+        background:white;
+        .isClick {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .fr-subtitle {
+        h4 {
+            height:33px;
+            line-height:33px;
+            text-indent:15px;
+            font-size:13px;
+            font-weight:400;
+            color:#999;
+        }
+    }
+    .fr-insured {
+        background:white;
+        .weui-cell:last-child {
+            .weui-cell__ft {
+                display:none;
+            }
+        }
+    }
+    .fr-applicant {
+        margin-top:15px;
+        background:white;
+        .weui-cell:last-child {
+            .weui-cell__ft {
+                display:none;
+            }
+        }
+    }
+    .fr-pay-amount {
+        span {
+            color:red;
+        }
+    }
+    .weui-cell:before {
+        left:0px;
+    }
+}
+.weui-toast {
+    z-index:20000;
+}
+
+/*=== start [立即投保] ===*/
+#fr-payment {
+    .fr-pay-plan {
+        position:relative;
+        padding:15px 0 10px;
+        h3 {
+            font-size:14px;
+            font-weight:400;
+            color:#666;
+            span {
+                display:inline-block;
+                line-height:24px;
+                padding-left:28px;
+                background:url('//cdn-test.qsebao.com/static/images/global/icon-01.png') no-repeat left center;
+                background-size:22px 22px;
+            }
+
+        }
+        i {
+            position: absolute;
+            top:12px;
+            right:5px;
+            width:27px;
+            height:27px;
+            background:url('//cdn-test.qsebao.com/static/images/global/icon-07.png') no-repeat center center;
+            background-size:15px auto;
+            cursor: pointer;
+        }
+    }
+    .fr-pay-consult {
+        a {
+            padding-left:20px;
+            font-size:14px;
+            color:#4B8FFB;
+            background:url('//cdn-test.qsebao.com/static/images/global/icon-08.png') no-repeat left 0px;
+            background-size:15px auto;
+        }
+    }
+    img {
+        margin-bottom:3px;
+    }
+
+    .weui-cell {
+        text-align:left;
+        label {
+            font-size:14px;
+            color:#666;
+        }
+    }
+    .pay-check-container {
+        .vux-checker-item {
+            height:25px;
+            line-height:25px;
+            padding:0 10px;
+            font-size: 12px;
+            border: 1px solid #E5E5E5;
+            border-radius: .05rem;
+            margin-left: 5px;
+            background-color: white;
+        }
+        .vux-checker-item:first-child {
+            margin-left: 0;
+        }
+        .vux-checker-item:active {
+            border: 1px solid #4B8FFB;
+            background-color: #4B8FFB;
+            color: #fff;
+        }
+        .pay-check-item-selected {
+            border: 1px solid #4B8FFB;
+            background-color: #4B8FFB;
+            color: #fff;
+        }
+    }
+    .fr-pay-renew {
+        .vux-check-icon {
+            span {
+                font-size:14px;
+                color:#aaa;
+            }
+        }
+        .weui-icon:before {
+            margin:0;
+        }
+        .weui-icon-success-circle:before {
+            color: #4B8FFB;
+        }
+    }
+    .fr-pay-clause {
+        padding:5px 15px 5px 0;
+        text-align: left;
+        font-size:12px;
+        color:#999;
+        .vux-check-icon {
+            float:left;
+            .weui-icon:before {
+                margin:10px 5px 0 15px;
+                font-size:16px;
+            }
+            .weui-icon-success-circle:before {
+                color: #4B8FFB;
+            }
+        }
+        a {
+            color: #4B8FFB;
+        }
+    }
+    .fr-pay-submit {
+        padding:10px;
+        &.bottom-menu-fixed{
+            bottom: 0.34rem;
+            margin-top: 0.34rem;
+        }
+
+        button {
+            background-color: #4B8FFB;
+            border-radius: 0.44rem;
+        }
+        button:active {
+            background-color: #3D7DCC;
+        }
+    }
+
+}
+
+.vux-actionsheet .weui-actionsheet__cell {
+    padding:0;
+}
+#fr-payment:active {
+    background:white;
+
+}
+/*=== end [立即投保] ===*/
+
+/*=== start [dialog基本样式] ===*/
+.dialog-module {
+    font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    .dialog-header {
+        height:50px;
+        line-height:60px;
+        font-size:16px;
+        font-weight:400;
+        color:#222;
+        overflow:hidden;
+    }
+    .dialog-body {
+        max-height:320px;
+        overflow-y:auto;
+        p {
+            padding:0 10px;
+            text-align:left;
+            font-size:16px;
+            color:#666;
+            word-wrap: break-word;
+        }
+        .weui-cell {
+            padding-left:10px;
+            padding-right:10px;
+            font-size:14px;
+            color:#333;
+        }
+        .weui-cell:before {
+            left:0;
+        }
+    }
+    .dialog-ppt {
+        p {
+            padding-top:5px;
+            text-align: left;
+            text-indent:15px;
+            font-size:11px;
+            color:#ccc;
+        }
+    }
+    .dialog-footer {
+        color: #4B8FFB;
+        font-weight: 600;
+        border-radius: 0;
+        padding: 10px 15px;
+        font-size: 17px;
+        vertical-align: middle;
+        button {
+            font-size:16px;
+            color:white;
+            background-color: #4B8FFB;
+        }
+        button:active {
+            background-color: #3D7DCC;
+        }
+    }
+}
+/*=== end [dialog基本样式] ===*/
+
+/*=== start [添加实名信息] ===*/
+.dialog-add-recognizee {
+    .weui-dialog {
+        width:90%;
+    }
+    .dialog-header {
+        position: relative;
+        span {
+            position: absolute;
+            top:1px;
+            left: 15px;
+            font-size:12px;
+            color:#4B8FFB;
+        }
+        i {
+            position: absolute;
+            top:15px;
+            right:5px;
+            width:27px;
+            height:27px;
+            background:url('//cdn-test.qsebao.com/static/images/global/icon-07.png') no-repeat center center;
+            background-size:15px auto;
+            cursor: pointer;
+        }
+    }
+    .rec-appoint {
+
+        padding:0 0 5px;
+        text-align: left;
+        text-indent: 15px;
+        font-size:14px;
+        color:#333;
+
+    }
+    .rec-name {
+        position: relative;
+        span {
+            position:absolute;
+            top: 1px;
+            right:5px;
+            width:40px;
+            height:40px;
+            background:white;
+            cursor:pointer;
+            img {
+                display:block;
+                margin:14px auto;
+            }
+        }
+
+    }
+    .rec-relation {
+        padding:10px 0;
+        .vux-checker-item {
+            height:25px;
+            line-height:25px;
+            padding:0 10px;
+            font-size: 12px;
+            border: 1px solid #E5E5E5;
+            border-radius: .05rem;
+            margin-left: 15px;
+            background-color: white;
+        }
+        .vux-checker-item:first-child {
+            margin-left: 0;
+        }
+        .vux-checker-item:active {
+            border: 1px solid #4B8FFB;
+            background-color: #4B8FFB;
+            color: #fff;
+        }
+        .rec-item-selected {
+            border: 1px solid #4B8FFB;
+            background-color: #4B8FFB;
+            color: #fff;
+        }
+    }
+}
+/*=== end [添加实名信息] ===*/
+
+/*=== start [实名选择] ===*/
+
+#real-name {
+    .weui-mask {
+        z-index:10000;
+    }
+    .weui-actionsheet {
+        z-index:20000;
+    }
+}
+
+#real-name {
+    .rn-title {
+        height:40px;
+        line-height:40px;
+        h3 {
+            font-size:12px;
+            font-weight:400;
+            color:#bbb;
+        }
+    }
+    .rn-body {
+        padding:0 15px;
+        max-height:2.5rem;
+        overflow-y: auto;
+        -webkit-overflow-scrolling:touch;
+        ul {
+            li {
+                height:40px;
+                line-height:40px;
+                list-style: none;
+                cursor: pointer;
+                span {
+                    font-size:12px;
+                    color:#999;
+                    strong {
+                        margin-right:5px;
+                        font-size:14px;
+                        font-weight:400;
+                        color:#333;
+                    }
+                }
+            }
+        }
+        .active {
+            span {
+                padding:10px 23px;
+                background:url('//cdn-test.qsebao.com/static/images/global/icon-12.png') no-repeat right center;
+                background-size:13px 9px;
+            }
+        }
+    }
+    .weui-actionsheet__cell:active {
+        background:white;
+    }
+}
+/*=== end [实名选择] ===*/
+
+@media screen and (max-width: 320px) {
+    #fr-payment .pay-check-container .vux-checker-item {
+        margin-left:0px;
+    }
+
+}
